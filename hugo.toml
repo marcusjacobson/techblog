@@ -1,4 +1,4 @@
 baseURL = 'https://marcusjacobson.github.io/techblog/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Marcus' Tech Blog'
 theme = 'ananke'
