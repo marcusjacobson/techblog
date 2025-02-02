@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html>
+
+<head><script src="/techblog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=techblog/livereload" data-no-instant defer></script><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href=/fav.png type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="/css/font.css" media="all">
+
+
+
+<meta property="og:url" content="http://localhost:1313/techblog/posts/deploy-hugo-site/">
+  <meta property="og:site_name" content="Tech Blog by Marcus">
+  <meta property="og:title" content="First Blog Post - Creating this Blog">
+  <meta property="og:description" content="Why I created this blog My name is Marcus, and I am an IT professional focused in Azure Cloud Deployments, and working to improve my skills in the Security and AI spaces. This blog is meant to be a space for me to focus on the following subjects:
+Discussions on personal projects I am working on Details on deployments with screenshots and code snippets, to help others as they come across the content Posts relating to learning activities I am working on, including certifications. This blog is posted using the Hugo framework within GitHub pages. I chose this method since it is a free way to host content and it allows me to still have the control around content publishing and site theming. For more details on using Hugo, please visit https://gohugo.io/.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-02-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-02-01T00:00:00+00:00">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="First Blog Post - Creating this Blog">
+  <meta name="twitter:description" content="Why I created this blog My name is Marcus, and I am an IT professional focused in Azure Cloud Deployments, and working to improve my skills in the Security and AI spaces. This blog is meant to be a space for me to focus on the following subjects:
+Discussions on personal projects I am working on Details on deployments with screenshots and code snippets, to help others as they come across the content Posts relating to learning activities I am working on, including certifications. This blog is posted using the Hugo framework within GitHub pages. I chose this method since it is a free way to host content and it allows me to still have the control around content publishing and site theming. For more details on using Hugo, please visit https://gohugo.io/.">
+
+
+<link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
+<link rel="stylesheet" href="/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="/css/theme.css" media="all">
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --text-link-color: #007bff;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+
+
+<meta name="description" content="">
+<link rel="stylesheet" href="/css/single.css">
+
+
+<script defer src="/fontawesome-6/all-6.4.2.js"></script>
+
+
+  
+  
+
+  <title>
+First Blog Post - Creating this Blog | Tech Blog by Marcus
+
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg ">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/techblog">
+                
+                
+                
+            </a>
+
+            
+                <div>
+                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Ctrl &#43; k to Search...'
+                        aria-label="Search" oninput="searchOnChange(event)">
+                </div>
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+                        <li class="nav-item navbar-text d-block d-md-none">
+                            <div class="nav-link">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Ctrl &#43; k to Search...' aria-label="Search" oninput="searchOnChange(event)">
+                            </div>
+                        </li>
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">First Blog Post - Creating this Blog</h1>
+            <div class="text-center">
+              
+              Feb 1, 2025
+
+              
+              <span id="readingTime">
+                min read
+              </span>
+              
+            </div>
+          </div>
+          
+          <article class="page-content  p-2">
+          <h1 id="why-i-created-this-blog">Why I created this blog</h1>
+<p>My name is Marcus, and I am an IT professional focused in Azure Cloud Deployments, and working to improve my skills in the Security and AI spaces. This blog is meant to be a space for me to focus on the following subjects:</p>
+<ul>
+<li>Discussions on personal projects I am working on</li>
+<li>Details on deployments with screenshots and code snippets, to help others as they come across the content</li>
+<li>Posts relating to learning activities I am working on, including certifications.</li>
+</ul>
+<p>This blog is posted using the Hugo framework within GitHub pages. I chose this method since it is a free way to host content and it allows me to still have the control around content publishing and site theming. For more details on using Hugo, please visit <a href="https://gohugo.io/">https://gohugo.io/</a>.</p>
+<p>I was also inspired to use this method to deploy my blog after coming across the following YouTube video: <a href="https://www.youtube.com/watch?v=nTLzLhFG9mc">Frontend Tutorials: How to create and host a blog on Github</a>. If you are interested in deploying a blog using this method, please check out the video and support the creator. He did a fantastic job of explaining the process.</p>
+<h1 id="how-i-created-this-blog">How I created this blog</h1>
+<p>Put simply, I followed the steps outlined in the video. However, please read on for a text breakdown.</p>
+<h2 id="install-hugo">Install Hugo</h2>
+<p>The method to install Hugo will vary depending on which operating system you use. The process I describe below was done on a Windows 11 PC, however you can find instructions for all operating systems at <a href="https://gohugo.io/installation/">Hugo - Installation</a>.</p>
+<ul>
+<li>From a <strong>PowerShell 7</strong> terminal, run the command <code>winget install Hugo.Hugo.Extended</code>.
+<ul>
+<li>It is not recommended to use the default <strong>Windows-PowerShell</strong> terminal that comes pre-installed.</li>
+<li>I installed the <strong>Extended</strong> edition. Review the documentation on the Installation link above for details on the different versions.</li>
+</ul>
+</li>
+<li>Once Hugo is confirmed to be installed, restart your terminal or close/re-open your coding environment (I use Visual Studio Code).
+<ul>
+<li>The <strong>hugo</strong> commands will not be recognized until the terminal is restarted.</li>
+</ul>
+</li>
+<li>Run <code>hugo version</code> to check install status.
+<ul>
+<li>You should see an output similar to <em>hugo v0.142.0-1f746a872442e66b6afd47c8c04ac42dc92cdb6f+extended windows/amd64 BuildDate=2025-01-22T12:20:52Z VendorInfo=gohugoio</em></li>
+</ul>
+</li>
+</ul>
+<h2 id="create-a-new-repo-in-github">Create a new repo in GitHub</h2>
+<p>You will want a dedicated repo for this deployment in GitHub. I chose to title mine <strong>techblog</strong>, but you can choose whatever name you like.</p>
+<p>It is recommended to clone your repo on your local device so that you can make edits in VS Code or a similar editor.</p>
+<h2 id="create-a-new-blank-hugo-site">Create a new blank Hugo site</h2>
+<p>To create a new site with the same name as the repo, in my case <strong>techblog</strong>, use the command <code>hugo new site . --force</code>.</p>
+<h2 id="deploy-a-theme-to-the-hugo-site">Deploy a theme to the Hugo site</h2>
+<p>Since nobody wants to read a blog site with no formatting, the next step would be to deploy a theme for your site. I chose the <strong>Ananke</strong> theme, but there are several others located at <a href="https://themes.gohugo.io/">Hugo - Themes</a>.</p>
+<p>To deploy the <strong>Ananke</strong> theme, use the command <code>git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke</code>. Once the theme is installed, you will want to configure your site to reference the theme by editing the <strong>hugo.toml</strong> file and add the line: <strong>theme = &lsquo;ananke&rsquo;</strong></p>
+<h2 id="create-a-hello-world-page">Create a Hello World page</h2>
+<p>In true form for IT people, you will want to follow etiquette and create your first page called <strong>Hello World!</strong>. To set this up within your repository:</p>
+<ul>
+<li>Create a new subfolder under <strong>content</strong> called <strong>posts</strong></li>
+<li>Create a new file <strong>hello-world.md</strong> with the following content:</li>
+</ul>
+<p>You can leverage the following text for the hello-world.md file:</p>
+<p><strong>Note</strong> the metadata at the top that is between the block in between the lines with <strong>&mdash;</strong> provides details required for the post. Do not skip this step.</p>
+<pre tabindex="0"><code>---
+title: &#34;Hello World!&#34;
+date: 2025-02-01
+draft: false
+---
+
+# Hello World
+
+This is a test Hello World post, using Hugo.
+</code></pre><h2 id="check-the-localhost-version-of-the-file">Check the localhost version of the file</h2>
+<p>In your PowerShell Terminal, run the command <code>hugo server</code> to start the local server. Once the message comes up that it is available, copy the localhost URL (mine is http://localhost:1313/) to view your local page with your first blog post.</p>
+<p><strong>Note</strong> If you already had the local server running, you may need to stop and start it before seeing the page update.</p>
+<h2 id="set-up-github-workflow">Set up Github workflow</h2>
+<p>The next step is to set up the GitHub workflow. When run. the workflow in the code block below will deploy a branch within your GitHub repository titled <strong>gh-pages</strong>, which can then be used to deploy your site within GitHub pages.</p>
+<p>Follow the steps below to set up this GitHub workflow:</p>
+<ul>
+<li>Create a new folder in your repo called <strong>.githib</strong>, with a subfolder <strong>workflows</strong></li>
+<li>Within the <strong>workflows</strong> folder, create a new YML file for the workflow. Mine is called <strong>hugo-build.yml</strong>, but you can call yours whatever you want.</li>
+<li>Insert the following codeblock into your YML file.</li>
+</ul>
+<pre tabindex="0"><code>name: Build Hugo Site
+
+on:
+  push:
+    branches:
+      - main 
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          submodules: true # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0   # Fetch all history for .GitInfo and .Lastmod
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: &#39;0.142.0&#39;
+          extended: true
+      - name: Build
+        run: hugo --minify
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == &#39;main&#39; }}
+        with: 
+          personal_token: ${{ secrets.ACCESS_TOKEN }}
+          publish_dir: ./public
+</code></pre><h2 id="commit-all-files-to-github">Commit all files to github</h2>
+<p>Once you have made all of these edits in your local editor, commit the files up to github and make sure they show up for you within your GitHub site.</p>
+<h2 id="configure-the-github-action-with-permissions-to-write-to-your-repo">Configure the GitHub action with permissions to write to your repo.</h2>
+<ul>
+<li>Within GitHub, go to Actions and locate your deployed action.</li>
+<li>Go to <strong>settings</strong>, and then enable the workflow permissions to <strong>Read and write permissions</strong></li>
+<li>Re-run your GitHub action. If completed successfully, it will have deployed a <strong>gh-pages</strong> branch within your repo.</li>
+</ul>
+<h2 id="configure-github-to-deploy-the-branch-to-github-pages">Configure GitHub to deploy the branch to GitHub Pages:</h2>
+<p>Perform the following steps to deploy the files from your <strong>gh-pages</strong> branch to GitHub Pages:</p>
+<ul>
+<li>From the <strong>main</strong> branch, go to <strong>settings &gt; pages</strong></li>
+<li>Set the <strong>Build and deployment</strong> settings to <strong>Deploy from a branch</strong>, and point it to the <strong>gh-pages</strong> branch. Remember to save this change.</li>
+<li>Return to GitHub actions and confirm the <strong>pages build and deployment</strong> action ran successfully. If deployed successfully, you will be presented with your new GitHub Pages URL.</li>
+<li>Launch your generated URL and ensure it loads successfully. At this point it will not have a theme, but you should at least see content.</li>
+</ul>
+<p>To add the theme for your deployed site:</p>
+<ul>
+<li>Edit the <strong>hugo.toml</strong> file in the <strong>main</strong> branch, and set the <strong>baseURL</strong> to your generated URL.</li>
+<li>Confirm the associated GitHub actions ran successfully.</li>
+<li>Refresh the published webpage and ensure the theme shows up successfully. Congratulations!</li>
+</ul>
+<h2 id="reflections-on-this-project">Reflections on this project</h2>
+<p>I am happy I went through this process to create my new blog. It is very lightweight and fast, and I prefer to have full control over my hosting without needing to subscribe to a particular platform and/or pay for their services. I was able to learn about a new way to deploy a website, and I look forward to building out my blog and customizing my theme further.</p>
+<p>I hope you found this blog post useful!</p>
+
+          </article>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div id="stickySideBar" class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#install-hugo">Install Hugo</a></li>
+    <li><a href="#create-a-new-repo-in-github">Create a new repo in GitHub</a></li>
+    <li><a href="#create-a-new-blank-hugo-site">Create a new blank Hugo site</a></li>
+    <li><a href="#deploy-a-theme-to-the-hugo-site">Deploy a theme to the Hugo site</a></li>
+    <li><a href="#create-a-hello-world-page">Create a Hello World page</a></li>
+    <li><a href="#check-the-localhost-version-of-the-file">Check the localhost version of the file</a></li>
+    <li><a href="#set-up-github-workflow">Set up Github workflow</a></li>
+    <li><a href="#commit-all-files-to-github">Commit all files to github</a></li>
+    <li><a href="#configure-the-github-action-with-permissions-to-write-to-your-repo">Configure the GitHub action with permissions to write to your repo.</a></li>
+    <li><a href="#configure-github-to-deploy-the-branch-to-github-pages">Configure GitHub to deploy the branch to GitHub Pages:</a></li>
+    <li><a href="#reflections-on-this-project">Reflections on this project</a></li>
+  </ul>
+</nav>
+              </div>
+          </aside>
+          
+
+          
+
+          
+          <aside class="social">
+            <h5>Social</h5>
+            <div class="social-content">
+              <ul class="list-inline">
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2flocalhost%3a1313%2ftechblog%2fposts%2fdeploy-hugo-site%2f">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://twitter.com/share?text=First%20Blog%20Post%20-%20Creating%20this%20Blog&url=http%3a%2f%2flocalhost%3a1313%2ftechblog%2fposts%2fdeploy-hugo-site%2f">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=First%20Blog%20Post%20-%20Creating%20this%20Blog: http%3a%2f%2flocalhost%3a1313%2ftechblog%2fposts%2fdeploy-hugo-site%2f">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href='mailto:?subject=First%20Blog%20Post%20-%20Creating%20this%20Blog&amp;body=Check%20out%20this%20site http%3a%2f%2flocalhost%3a1313%2ftechblog%2fposts%2fdeploy-hugo-site%2f'>
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<Script src="/js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  
+  let stickySideBarElem = document.getElementById("stickySideBar");
+  let stickyNavBar =  false ;
+  if(stickyNavBar) {
+    let headerElem = document.getElementById("profileHeader");
+    let headerHeight = headerElem.offsetHeight + 15;
+    stickySideBarElem.style.top = headerHeight + "px";
+  } else {
+    stickySideBarElem.style.top = "50px";
+  }
+</script>
+
+
+<script src="/js/readingTime.js"></script>
+
+
+
+  </div><footer>
+    
+ 
+
+<div class="text-center pt-2">
+    
+
+    
+
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            
+            &copy; 2025  All Rights Reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+
+    <script src="/js/search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
+</body>
+
+</html>
