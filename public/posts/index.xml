@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts</title>
-    <link>http://localhost:1313/techblog/</link>
-    <description>Recent content on Posts</description>
+    <title>Posts on Tech Blog by Marcus</title>
+    <link>https://marcusjacobson.github.io/techblog/posts/</link>
+    <description>Recent content in Posts on Tech Blog by Marcus</description>
     <generator>Hugo</generator>
-    <language>en-US</language>
+    <language>en-us</language>
     <lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/techblog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://marcusjacobson.github.io/techblog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Blog Post - Creating this Blog</title>
-      <link>http://localhost:1313/techblog/deploy-hugo-site/</link>
+      <link>https://marcusjacobson.github.io/techblog/posts/deploy-hugo-site/</link>
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/techblog/deploy-hugo-site/</guid>
+      <guid>https://marcusjacobson.github.io/techblog/posts/deploy-hugo-site/</guid>
       <description>&lt;h1 id=&#34;why-i-created-this-blog&#34;&gt;Why I created this blog&lt;/h1&gt;&#xA;&lt;p&gt;My name is Marcus, and I am an IT professional focused in Azure Cloud Deployments, and working to improve my skills in the Security and AI spaces. This blog is meant to be a space for me to focus on the following subjects:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Discussions on personal projects I am working on&lt;/li&gt;&#xA;&lt;li&gt;Details on deployments with screenshots and code snippets, to help others as they come across the content&lt;/li&gt;&#xA;&lt;li&gt;Posts relating to learning activities I am working on, including certifications.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This blog is posted using the Hugo framework within GitHub pages. I chose this method since it is a free way to host content and it allows me to still have the control around content publishing and site theming. For more details on using Hugo, please visit &lt;a href=&#34;https://gohugo.io/&#34;&gt;https://gohugo.io/&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello World!</title>
-      <link>http://localhost:1313/techblog/hello-world/</link>
+      <link>https://marcusjacobson.github.io/techblog/posts/hello-world/</link>
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/techblog/hello-world/</guid>
+      <guid>https://marcusjacobson.github.io/techblog/posts/hello-world/</guid>
       <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello World&lt;/h1&gt;&#xA;&lt;p&gt;This is a test Hello World post, using Hugo.&lt;/p&gt;</description>
     </item>
   </channel>
