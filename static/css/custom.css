@@ -3,3 +3,14 @@
     background-size: cover;
     background-position: center;
 }
+.bg-forest-green {
+    background-color: #228B22;
+}
+
+.bg-light-green {
+    background-color: #90EE90;
+}
+
+.bg-dark-green {
+    background-color: #006400;
+}
