@@ -1,4 +1,4 @@
-baseURL = "https://marcusjacobson.github.io/techblog/"
+baseURL = "http://localhost/"
 languageCode = "en-us"
 title = "Tech Blog by Marcus"
 theme = "ananke"
@@ -16,7 +16,7 @@ pagerSize = 3
 contentDir = "content/posts"
 languageCode = 'en-US'
 weight = 1
-title = "Tech Blog by Marcus"
+title = "Posts"
 
 [sitemap]
 changefreq = "monthly"
@@ -29,11 +29,17 @@ author = ""
 favicon = ""
 site_logo = ""
 description = "The last theme you'll ever need. Maybe."
-background_color_class = "bg-black"
+background_color_class = "bg-green"
 featured_image_class = "cover bg-top"
 cover_dimming_class = "bg-black-60"
 recent_posts_number = 3
 customCSS = ["css/custom.css"]
+
+# New parameters for different titles
+top_header_title = "Home"
+main_header_title = "Welcome to My Blog"
+recent_posts_title = "Recent Posts"
+header_title = "Tech Blog by Marcus"
 
 [params.ananke.social.share]
 networks = [
