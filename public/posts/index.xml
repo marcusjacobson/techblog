@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tech Blog by Marcus</title>
-    <link>https://marcusjacobson.github.io/techblog/</link>
-    <description>Recent content on Tech Blog by Marcus</description>
+    <title>Posts on Tech Blog by Marcus</title>
+    <link>https://marcusjacobson.github.io/techblog/posts/</link>
+    <description>Recent content in Posts on Tech Blog by Marcus</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://marcusjacobson.github.io/techblog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://marcusjacobson.github.io/techblog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Blog Post - Creating this Blog</title>
       <link>https://marcusjacobson.github.io/techblog/posts/deploy-hugo-site/</link>
