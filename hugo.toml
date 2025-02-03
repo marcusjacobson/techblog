@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "Tech Blog by Marcus"
 theme = "ananke"
 
-# sectionPagesMenu = "main"
 enableRobotsTXT = true
 
 [services.googleAnalytics]

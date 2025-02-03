@@ -6,8 +6,15 @@
     <description>Recent content on Tech Blog by Marcus</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/techblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo - Customize the Ananke Theme</title>
+      <link>http://localhost:1313/techblog/posts/customize-hugo/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/posts/customize-hugo/</guid>
+      <description>&lt;h1 id=&#34;continuing-the-hugo-journey&#34;&gt;Continuing the Hugo Journey&lt;/h1&gt;&#xA;&lt;p&gt;As discussed in the previous Blog post, I&amp;rsquo;ve started to host my own tech blog site using the Hugo platform and hosting through GitHub pages. Today I decided to play with the platform a little more and see if I could extend my site to multiple pages and make it more of a personal homepage along with the blog. With this goal in mind, I worked on the following items:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>First Blog Post - Creating this Blog</title>
       <link>http://localhost:1313/techblog/posts/deploy-hugo-site/</link>
