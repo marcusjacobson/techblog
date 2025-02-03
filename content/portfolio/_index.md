@@ -1,9 +1,8 @@
 ---
 title: "Portfolio"
-featured_image: '/images/gohugo-default-sample-hero-image.jpg'
-featured_image_class: 'header-image'
-layout: "list"
-draft: false
+featured_image: '/images/coffee2.jpg'
+layout: 'list'
+header_height: '300px'
 ---
 
 {{< under-construction >}}
