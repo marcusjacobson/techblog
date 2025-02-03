@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Tech Blog by Marcus"
 theme = "ananke"
 
-sectionPagesMenu = "main"
+# sectionPagesMenu = "main"
 enableRobotsTXT = true
 
 [services.googleAnalytics]
@@ -13,7 +13,6 @@ id = ''
 pagerSize = 3
 
 [languages.en]
-contentDir = "content/posts"
 languageCode = 'en-US'
 weight = 1
 title = "Tech Blog by Marcus"

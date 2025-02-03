@@ -2,10 +2,16 @@
 title: "Portfolio"
 featured_image: '/images/gohugo-default-sample-hero-image.jpg'
 featured_image_class: 'header-image'
+layout: "list"
+draft: false
 ---
 
+{{< under-construction >}}
+
 # About Me
-My name is [Your Name], and I am a [Your Profession]. I specialize in [Your Specialization] and have experience in [Your Experience].
+
+
+My name is not [Your Name], and I am a [Your Profession]. I specialize in [Your Specialization] and have experience in [Your Experience].
 
 # Skills
 - Skill 1
