@@ -1,16 +1,5 @@
 .header-image {
-    background-image: url('/images/gohugo-default-sample-hero-image.jpg');
+    background-image: url('/static/images/gohugo-default-sample-hero-image.jpg');
     background-size: cover;
     background-position: center;
-}
-.bg-forest-green {
-    background-color: #228B22;
-}
-
-.bg-light-green {
-    background-color: #90EE90;
-}
-
-.bg-dark-green {
-    background-color: #006400;
 }

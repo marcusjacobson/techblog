@@ -16,7 +16,7 @@ pagerSize = 3
 contentDir = "content/posts"
 languageCode = 'en-US'
 weight = 1
-title = "Posts"
+title = "Tech Blog by Marcus"
 
 [sitemap]
 changefreq = "monthly"
@@ -34,6 +34,25 @@ featured_image_class = "cover bg-top"
 cover_dimming_class = "bg-black-60"
 recent_posts_number = 3
 customCSS = ["css/custom.css"]
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/portfolio/"
+    weight = 3
 
 # New parameters for different titles
 top_header_title = "Home"
