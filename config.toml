@@ -33,7 +33,6 @@ background_color_class = "bg-forest-green"
 featured_image_class = "cover bg-top"
 cover_dimming_class = "bg-black-60"
 recent_posts_number = 3
-customCSS = ["css/custom.css"]
 
 [menu]
   [[menu.main]]

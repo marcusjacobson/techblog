@@ -24,7 +24,7 @@ In order for the name change to appear correctly and to update the references wi
 2. Under **public**, I also changed the folder name from *portfolio* to *profile*.
 3. Within **hugo.toml**, I changed the references to my **portfolio** page to now be **profile**
 
-![profile-update-hugotoml](../posts/images/customize-hugo/profile-update-hugotoml.png)
+![profile-update-hugotoml](static/images/customize-hugo/profile-update-hugotoml.png)
 
 1. Within my **profile/_index.md** file, I changed the title reference to now read *profile*.
 
