@@ -145,27 +145,27 @@ It&rsquo;s been a couple of weeks since I&rsquo;ve worked on the Hugo site. Howe
 <li>Under <strong>public</strong>, I also changed the folder name from <em>portfolio</em> to <em>profile</em>.</li>
 <li>Within <strong>hugo.toml</strong>, I changed the references to my <strong>portfolio</strong> page to now be <strong>profile</strong></li>
 </ol>
-<p><img src="static/images/customize-hugo/profile-update-hugotoml.png" alt="profile-update-hugotoml"></p>
+<p><img src="/techblog/images/customize-hugo/profile-update-hugotoml.png" alt="profile-update-hugotoml"></p>
 <ol>
 <li>Within my <strong>profile/_index.md</strong> file, I changed the title reference to now read <em>profile</em>.</li>
 </ol>
 <h3 id="customize-text-layout">Customize text layout</h3>
 <p>After deploying my page and making the changes to now reference <em>profile</em>, I realized I did not like the format of my page. I had used the <em>list</em> layout originally, but it had all of the text center-justified. To change this to left-justified, I updated the layout to <strong>single</strong>.</p>
 <p><strong>Note</strong>: The existing layouts provided within the template for this theme can be found within the Hugo file structure in: <strong>public/themes/ananke/layouts/_default</strong>.</p>
-<p><img src="/content/posts/images/customize-hugo/hugo-profiles-default.png" alt="hugo-profiles-default"></p>
+<p><img src="techblog/images/customize-hugo/hugo-profiles-default.png" alt="hugo-profiles-default"></p>
 <p>Perhaps in the future I&rsquo;ll work to build out a custom profile, but for now I&rsquo;m happy with the fact that the <em>single</em> profile allowed my text to be left-justified.</p>
 <h3 id="widening-the-space-for-the-text-body">Widening the space for the text body</h3>
 <p>One thing I didn&rsquo;t like with the <em>single</em> layout was that the text field for the body area did not fill up the page and looked off-center underneath the header. This is not good for someone with OCD like me. With a little bit of research (thanks GitHub Copilot!), I was able to find the correct value to update within the single.html file located in the <em>layouts/_default</em> folder referenced above. Based on pre-existing knowledge, I figured this would be a CSS update, but it was helpful to know exactly where to look using a quick prompt.</p>
 <p>Within the div class attribute for the body (screenshot below), I updated the value at the end of the statement from <em>w-two-thirds</em> to <em>w-100</em>, effectively changing the text box size from taking up 2/3 of the space to taking up the full available default space (100%).</p>
-<p><img src="/content/posts/images/customize-hugo/single-width-100.png" alt="single-width-100"></p>
+<p><img src="techblog/images/customize-hugo/single-width-100.png" alt="single-width-100"></p>
 <h2 id="too-many-headers">Too many headers</h2>
 <p>The text is now aligned and formatted in a format that I like, however now I had the <strong>Profile</strong> header appearing 3 times. While the <em>department of redundancy department</em> has their value in the world, this didn&rsquo;t look good.</p>
-<p><img src="/content/posts/images/customize-hugo/profile-redundancy.png" alt="profile-redundancy"></p>
+<p><img src="techblog/images/customize-hugo/profile-redundancy.png" alt="profile-redundancy"></p>
 <p>To change this I made the following changes within the single.html file, effectively changing the way the template looks for any page that uses this profile template:</p>
 <p>Comment out the CurrentSection and H1 value:</p>
-<p><img src="/content/posts/images/customize-hugo/single-profile-reduce-headers.png" alt="single-comment-out-h1"></p>
+<p><img src="techblog/images/customize-hugo/single-profile-reduce-headers.png" alt="single-comment-out-h1"></p>
 <p>I am now happy with the look of the profile page.</p>
-<p><img src="/content/posts/images/customize-hugo/profile-header-redundancy-removed.png" alt="profile-header-redundancy-removed"></p>
+<p><img src="techblog/posts/images/customize-hugo/profile-header-redundancy-removed.png" alt="profile-header-redundancy-removed"></p>
 <h2 id="view-the-profile-page">View the Profile page</h2>
 <p>The live profile page is now live at: <a href="https://marcusjacobson.github.io/techblog/profile/">Profile</a></p>
 <ul class="pa0">

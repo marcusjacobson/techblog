@@ -24,7 +24,7 @@ In order for the name change to appear correctly and to update the references wi
 2. Under **public**, I also changed the folder name from *portfolio* to *profile*.
 3. Within **hugo.toml**, I changed the references to my **portfolio** page to now be **profile**
 
-![profile-update-hugotoml](static/images/customize-hugo/profile-update-hugotoml.png)
+![profile-update-hugotoml](/techblog/images/customize-hugo/profile-update-hugotoml.png)
 
 1. Within my **profile/_index.md** file, I changed the title reference to now read *profile*.
 
@@ -34,7 +34,7 @@ After deploying my page and making the changes to now reference *profile*, I rea
 
 **Note**: The existing layouts provided within the template for this theme can be found within the Hugo file structure in: **public/themes/ananke/layouts/_default**.
 
-![hugo-profiles-default](/content/posts/images/customize-hugo/hugo-profiles-default.png)
+![hugo-profiles-default](techblog/images/customize-hugo/hugo-profiles-default.png)
 
 Perhaps in the future I'll work to build out a custom profile, but for now I'm happy with the fact that the *single* profile allowed my text to be left-justified.
 
@@ -44,23 +44,23 @@ One thing I didn't like with the *single* layout was that the text field for the
 
 Within the div class attribute for the body (screenshot below), I updated the value at the end of the statement from *w-two-thirds* to *w-100*, effectively changing the text box size from taking up 2/3 of the space to taking up the full available default space (100%).
 
-![single-width-100](/content/posts/images/customize-hugo/single-width-100.png)
+![single-width-100](techblog/images/customize-hugo/single-width-100.png)
 
 ## Too many headers
 
 The text is now aligned and formatted in a format that I like, however now I had the **Profile** header appearing 3 times. While the *department of redundancy department* has their value in the world, this didn't look good.
 
-![profile-redundancy](/content/posts/images/customize-hugo/profile-redundancy.png)
+![profile-redundancy](techblog/images/customize-hugo/profile-redundancy.png)
 
 To change this I made the following changes within the single.html file, effectively changing the way the template looks for any page that uses this profile template:
 
 Comment out the CurrentSection and H1 value:
 
-![single-comment-out-h1](/content/posts/images/customize-hugo/single-profile-reduce-headers.png)
+![single-comment-out-h1](techblog/images/customize-hugo/single-profile-reduce-headers.png)
 
 I am now happy with the look of the profile page.
 
-![profile-header-redundancy-removed](/content/posts/images/customize-hugo/profile-header-redundancy-removed.png)
+![profile-header-redundancy-removed](techblog/posts/images/customize-hugo/profile-header-redundancy-removed.png)
 
 ## View the Profile page
 
