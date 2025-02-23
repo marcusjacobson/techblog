@@ -61,3 +61,7 @@ Comment out the CurrentSection and H1 value:
 I am now happy with the look of the profile page.
 
 ![profile-header-redundancy-removed](/content/posts/images/customize-hugo/profile-header-redundancy-removed.png)
+
+## View the Profile page
+
+The live profile page is now live at: [Profile](https://marcusjacobson.github.io/techblog/profile/)
