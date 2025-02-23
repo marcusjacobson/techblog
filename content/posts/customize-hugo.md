@@ -18,15 +18,15 @@ Within Hugo, the process to add more pages is quite simple. You just need to per
 1. Create subfolders under **content** for each page you want.
 2. Create an **_index.md** file in each folder.
 
-![vscode content tree](.images//customize-hugo/vscode-content-tree.png)
+![vscode content tree](images//customize-hugo/vscode-content-tree.png)
 
 3. Update the **hugo.toml** file with navigation links for each of the new pages:
 
-![hugo.toml menus](.images/customize-hugo/hugo-toml-menus.png)
+![hugo.toml menus](images/customize-hugo/hugo-toml-menus.png)
 
 Once these steps are performed, it will show the links on the homepage header like this:
 
-![homepage menu links](.images/customize-hugo/homepage-menu-links.png)
+![homepage menu links](images/customize-hugo/homepage-menu-links.png)
 
 ### Adding content to the sub-pages
 
@@ -44,7 +44,7 @@ header_height: '300px'
 
 Once published it looks like this:
 
-![Blog Posts Site](.images/customize-hugo/blog-posts-site.png)
+![Blog Posts Site](images/customize-hugo/blog-posts-site.png)
 
 For the **Portfolio** Page, this is intended to be a place for me to write a little more about myself. I used a similar header to the **Blog** page (with a different image) but then added markdown text to build out my portfolio. At the time of this writing, I still need to populate this content, but in the meantime I just pasted in a markdown template that I generated using GitHub Copilot.
 
@@ -79,7 +79,7 @@ My name is not [Your Name], and I am a [Your Profession]. I specialize in [Your 
 ```
 The current view of this page looks like this, though note that this page will be updated in the coming days:
 
-![portfolio site](.images/customize-hugo/portfolio-site.png)
+![portfolio site](images/customize-hugo/portfolio-site.png)
 
 ## Customizing the Ananke theme
 

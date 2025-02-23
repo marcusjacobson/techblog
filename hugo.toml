@@ -47,9 +47,9 @@ customCSS = ["css/custom.css"]
     weight = 2
 
   [[menu.main]]
-    identifier = "portfolio"
-    name = "Portfolio"
-    url = "/portfolio/"
+    identifier = "profile"
+    name = "Profile"
+    url = "/profile/"
     weight = 3
 
 # New parameters for different titles

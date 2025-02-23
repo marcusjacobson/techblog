@@ -89,8 +89,8 @@ As discussed in the previous Blog post, I&rsquo;ve started to host my own tech b
           </li>
           
           <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white no-underline white-90" href="/techblog/portfolio/" title="Portfolio">
-              Portfolio
+            <a class="hover-white no-underline white-90" href="/techblog/profile/" title="Profile">
+              Profile
             </a>
           </li>
           
@@ -116,11 +116,10 @@ As discussed in the previous Blog post, I&rsquo;ve started to host my own tech b
   
   <article class="flex-l flex-wrap justify-between mw8 center ph3">
     <header class="mt4 w-100">
-      <aside class="instapaper_ignoref b helvetica tracked ttu">
-          
-        Blog Posts
-      </aside><div id="sharing" class="mt3 ananke-socials"></div>
-<h1 class="f1 athelas mt3 mb1">Hugo - Customize the Ananke Theme</h1>
+      
+      <div id="sharing" class="mt3 ananke-socials"></div>
+
+      
       
       
       
@@ -130,7 +129,7 @@ As discussed in the previous Blog post, I&rsquo;ve started to host my own tech b
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1 id="continuing-the-hugo-journey">Continuing the Hugo Journey</h1>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100"><h1 id="continuing-the-hugo-journey">Continuing the Hugo Journey</h1>
 <p>As discussed in the previous Blog post, I&rsquo;ve started to host my own tech blog site using the Hugo platform and hosting through GitHub pages. Today I decided to play with the platform a little more and see if I could extend my site to multiple pages and make it more of a personal homepage along with the blog. With this goal in mind, I worked on the following items:</p>
 <ul>
 <li>Add two additional pages: Portfolio and Blog</li>
@@ -142,13 +141,13 @@ As discussed in the previous Blog post, I&rsquo;ve started to host my own tech b
 <li>Create subfolders under <strong>content</strong> for each page you want.</li>
 <li>Create an <strong>_index.md</strong> file in each folder.</li>
 </ol>
-<p><img src=".images//customize-hugo/vscode-content-tree.png" alt="vscode content tree"></p>
+<p><img src="images//customize-hugo/vscode-content-tree.png" alt="vscode content tree"></p>
 <ol start="3">
 <li>Update the <strong>hugo.toml</strong> file with navigation links for each of the new pages:</li>
 </ol>
-<p><img src=".images/customize-hugo/hugo-toml-menus.png" alt="hugo.toml menus"></p>
+<p><img src="images/customize-hugo/hugo-toml-menus.png" alt="hugo.toml menus"></p>
 <p>Once these steps are performed, it will show the links on the homepage header like this:</p>
-<p><img src=".images/customize-hugo/homepage-menu-links.png" alt="homepage menu links"></p>
+<p><img src="images/customize-hugo/homepage-menu-links.png" alt="homepage menu links"></p>
 <h3 id="adding-content-to-the-sub-pages">Adding content to the sub-pages</h3>
 <p>For the <strong>Blog</strong> page, I simply updated the <strong>posts/_index.md</strong> file with the following metadata (more on the featured_image and header_height values later in this post):</p>
 <p><strong>Note</strong>: This page is just intended to show all of the blog posts so readers can see the full history instead of just the most recent posts. Therefore, no additional content is needed for this page.</p>
@@ -158,7 +157,7 @@ featured_image: &#39;/images/keyboard.jpg&#39;
 header_height: &#39;300px&#39;
 ---
 </code></pre><p>Once published it looks like this:</p>
-<p><img src=".images/customize-hugo/blog-posts-site.png" alt="Blog Posts Site"></p>
+<p><img src="images/customize-hugo/blog-posts-site.png" alt="Blog Posts Site"></p>
 <p>For the <strong>Portfolio</strong> Page, this is intended to be a place for me to write a little more about myself. I used a similar header to the <strong>Blog</strong> page (with a different image) but then added markdown text to build out my portfolio. At the time of this writing, I still need to populate this content, but in the meantime I just pasted in a markdown template that I generated using GitHub Copilot.</p>
 <pre tabindex="0"><code>---
 title: &#34;Portfolio&#34;
@@ -188,7 +187,7 @@ My name is not [Your Name], and I am a [Your Profession]. I specialize in [Your 
 
 ...content continues...
 </code></pre><p>The current view of this page looks like this, though note that this page will be updated in the coming days:</p>
-<p><img src=".images/customize-hugo/portfolio-site.png" alt="portfolio site"></p>
+<p><img src="images/customize-hugo/portfolio-site.png" alt="portfolio site"></p>
 <h2 id="customizing-the-ananke-theme">Customizing the Ananke theme</h2>
 <p>While the default Ananke theme is easy to deploy to test a new site, it is admittedly pretty boring, so let&rsquo;s customize it.</p>
 <p>In the previous blog post, I discussed using the <code>git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke</code> command, which loads it directly from the publisher&rsquo;s GitHub. This is great for testing. We can test edits locally on your PC to see how they look, but if you want to publish the edits to your hosted page the commit will fail since you don&rsquo;t have write access to the owner&rsquo;s GitHub.</p>
