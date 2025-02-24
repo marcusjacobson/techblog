@@ -16,6 +16,13 @@
       <description>&lt;h1 id=&#34;customizing-a-profile-page-within-the-hugo-site&#34;&gt;Customizing a profile page within the hugo site.&lt;/h1&gt;&#xA;&lt;p&gt;It&amp;rsquo;s been a couple of weeks since I&amp;rsquo;ve worked on the Hugo site. However, I came back to it today to work on building out the Portfolio page that I created as a placeholder in the past, to get this site closer to something I&amp;rsquo;d be more comfortable sharing with the world. I started by filling out details within the placeholder markdown file I created before. Here were my goals:&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Hugo - Fixing broken image links</title>
+      <link>http://localhost:1313/techblog/posts/hugo-images/</link>
+      <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/posts/hugo-images/</guid>
+      <description>&lt;h2 id=&#34;my-hugo-images-were-broken&#34;&gt;My Hugo images were broken!&lt;/h2&gt;&#xA;&lt;p&gt;Quick update for today, with another Hugo tip. As I have worked with markdown before, specifically while managing Wikis in Azure DevOps and GitHub, I simply created a subdirectory within my repository in the same area as the markdown files for my articles, and then pointed to my image files using the typical syntax of &lt;code&gt;![alt text](imagelink)&lt;/code&gt;. When building my site within Hugo, it even properly ported these image files into the &lt;strong&gt;public&lt;/strong&gt; site files, however no matter what I did, my links were broken.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Hugo - Customize the Ananke Theme</title>
       <link>http://localhost:1313/techblog/posts/customize-hugo/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
