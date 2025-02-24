@@ -60,7 +60,7 @@ Comment out the CurrentSection and H1 value:
 
 I am now happy with the look of the profile page.
 
-![profile-header-redundancy-removed](/techblog/posts/images/customize-hugo/profile-header-redundancy-removed.png)
+![profile-header-redundancy-removed](/techblog/images/customize-hugo/profile-header-redundancy-removed.png)
 
 ## View the Profile page
 
