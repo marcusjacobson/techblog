@@ -130,16 +130,16 @@ It&rsquo;s been a couple of weeks since I&rsquo;ve worked on the Hugo site. Howe
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100"><h1 id="customizing-a-profile-page-within-the-hugo-site">Customizing a profile page within the hugo site.</h1>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100"><h2 id="customizing-a-profile-page-within-the-hugo-site">Customizing a profile page within the hugo site.</h2>
 <p>It&rsquo;s been a couple of weeks since I&rsquo;ve worked on the Hugo site. However, I came back to it today to work on building out the Portfolio page that I created as a placeholder in the past, to get this site closer to something I&rsquo;d be more comfortable sharing with the world. I started by filling out details within the placeholder markdown file I created before. Here were my goals:</p>
 <ul>
 <li>I did not want this to simply be an online resume. I may add this to the site later.</li>
 <li>I wanted to keep it to be a more high level description of my current skills, the skills I am working to develop.</li>
 <li>I also wanted it to include and a brief summary of certifications, career history, education, and how to get in touch with me.</li>
 </ul>
-<h2 id="changing-the-page-from-portfolio-to-profile">Changing the page from &lsquo;Portfolio&rsquo; to &lsquo;Profile&rsquo;</h2>
+<h3 id="changing-the-page-from-portfolio-to-profile">Changing the page from &lsquo;Portfolio&rsquo; to &lsquo;Profile&rsquo;</h3>
 <p>After creating my page, I realized that <em>Portfolio</em> was the wrong term to describe the contents of the page. Therefore I changed it to <em>Profie</em> by performing the following actions:</p>
-<h3 id="changing-the-references-within-hugo">Changing the references within Hugo</h3>
+<h4 id="changing-the-references-within-hugo">Changing the references within Hugo</h4>
 <p>In order for the name change to appear correctly and to update the references within my site, I made the following updates within VS Code (though you can use whatever tool you prefer for editing your files):</p>
 <ol>
 <li>Under <strong>content</strong> within my Hugo file structure, I changed the folder name from <em>portfolio</em> to <em>profile</em>.</li>
@@ -150,16 +150,16 @@ It&rsquo;s been a couple of weeks since I&rsquo;ve worked on the Hugo site. Howe
 <ol start="4">
 <li>Within my <strong>profile/_index.md</strong> file, I changed the title reference to now read <em>profile</em>.</li>
 </ol>
-<h3 id="customize-text-layout">Customize text layout</h3>
+<h4 id="customize-text-layout">Customize text layout</h4>
 <p>After deploying my page and making the changes to now reference <em>profile</em>, I realized I did not like the format of my page. I had used the <em>list</em> layout originally, but it had all of the text center-justified. To change this to left-justified, I updated the layout to <strong>single</strong>.</p>
 <p><strong>Note</strong>: The existing layouts provided within the template for this theme can be found within the Hugo file structure in: <strong>public/themes/ananke/layouts/_default</strong>.</p>
 <p><img src="/techblog/images/customize-hugo/hugo-profiles-default.png" alt="hugo-profiles-default"></p>
 <p>Perhaps in the future I&rsquo;ll work to build out a custom profile, but for now I&rsquo;m happy with the fact that the <em>single</em> profile allowed my text to be left-justified.</p>
-<h3 id="widening-the-space-for-the-text-body">Widening the space for the text body</h3>
+<h4 id="widening-the-space-for-the-text-body">Widening the space for the text body</h4>
 <p>One thing I didn&rsquo;t like with the <em>single</em> layout was that the text field for the body area did not fill up the page and looked off-center underneath the header. This is not good for someone with OCD like me. With a little bit of research (thanks GitHub Copilot!), I was able to find the correct value to update within the single.html file located in the <em>layouts/_default</em> folder referenced above. Based on pre-existing knowledge, I figured this would be a CSS update, but it was helpful to know exactly where to look using a quick prompt.</p>
 <p>Within the div class attribute for the body (screenshot below), I updated the value at the end of the statement from <em>w-two-thirds</em> to <em>w-100</em>, effectively changing the text box size from taking up 2/3 of the space to taking up the full available default space (100%).</p>
 <p><img src="/techblog/images/customize-hugo/single-width-100.png" alt="single-width-100"></p>
-<h2 id="too-many-headers">Too many headers</h2>
+<h3 id="too-many-headers">Too many headers</h3>
 <p>The text is now aligned and formatted in a format that I like, however now I had the <strong>Profile</strong> header appearing 3 times. While the <em>department of redundancy department</em> has their value in the world, this didn&rsquo;t look good.</p>
 <p><img src="/techblog/images/customize-hugo/profile-redundancy.png" alt="profile-redundancy"></p>
 <p>To change this I made the following changes within the single.html file, effectively changing the way the template looks for any page that uses this profile template:</p>

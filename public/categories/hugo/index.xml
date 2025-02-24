@@ -9,11 +9,18 @@
     <lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/techblog/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Hugo - Add taxonomy to sort blog posts</title>
+      <link>http://localhost:1313/techblog/posts/hugo-add-taxonomy/</link>
+      <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/posts/hugo-add-taxonomy/</guid>
+      <description>&lt;h2 id=&#34;the-need-to-sort-blog-posts&#34;&gt;The need to sort blog posts&lt;/h2&gt;&#xA;&lt;p&gt;As I have been adding more blog posts, I realized that I needed to start sorting them by category, to make finding relevant articles in the future easier. Fortunately, with a little research, the answer to this was pretty straightforward.&lt;/p&gt;&#xA;&lt;h3 id=&#34;add-a-taxonomy-section-to-hugotoml&#34;&gt;Add a taxonomy section to hugo.toml&lt;/h3&gt;&#xA;&lt;p&gt;Within the &lt;strong&gt;hugo.toml&lt;/strong&gt; file, I added the following section after &lt;strong&gt;[&amp;ldquo;params&amp;rdquo;]&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[taxonomies]&#xD;&#xA;  category = &amp;#34;categories&amp;#34;&#xD;&#xA;  tag = &amp;#34;tags&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This gives me the option to do both categorization and add tags in the future. For now I just added categories, since I don&amp;rsquo;t have a search functionality on my side. If I add search later though, having the option to implement tags will be helpful.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Hugo - Creating the Profile page</title>
       <link>http://localhost:1313/techblog/posts/hugo-profile-page/</link>
       <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/techblog/posts/hugo-profile-page/</guid>
-      <description>&lt;h1 id=&#34;customizing-a-profile-page-within-the-hugo-site&#34;&gt;Customizing a profile page within the hugo site.&lt;/h1&gt;&#xA;&lt;p&gt;It&amp;rsquo;s been a couple of weeks since I&amp;rsquo;ve worked on the Hugo site. However, I came back to it today to work on building out the Portfolio page that I created as a placeholder in the past, to get this site closer to something I&amp;rsquo;d be more comfortable sharing with the world. I started by filling out details within the placeholder markdown file I created before. Here were my goals:&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;customizing-a-profile-page-within-the-hugo-site&#34;&gt;Customizing a profile page within the hugo site.&lt;/h2&gt;&#xA;&lt;p&gt;It&amp;rsquo;s been a couple of weeks since I&amp;rsquo;ve worked on the Hugo site. However, I came back to it today to work on building out the Portfolio page that I created as a placeholder in the past, to get this site closer to something I&amp;rsquo;d be more comfortable sharing with the world. I started by filling out details within the placeholder markdown file I created before. Here were my goals:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hugo - Fix home page indentation</title>

@@ -5,7 +5,7 @@ draft: false
 categories: ["Hugo"]
 ---
 
-# Customizing a profile page within the hugo site.
+## Customizing a profile page within the hugo site.
 
 It's been a couple of weeks since I've worked on the Hugo site. However, I came back to it today to work on building out the Portfolio page that I created as a placeholder in the past, to get this site closer to something I'd be more comfortable sharing with the world. I started by filling out details within the placeholder markdown file I created before. Here were my goals:
 
@@ -13,11 +13,11 @@ It's been a couple of weeks since I've worked on the Hugo site. However, I came 
 - I wanted to keep it to be a more high level description of my current skills, the skills I am working to develop.
 - I also wanted it to include and a brief summary of certifications, career history, education, and how to get in touch with me.
 
-## Changing the page from 'Portfolio' to 'Profile'
+### Changing the page from 'Portfolio' to 'Profile'
 
 After creating my page, I realized that *Portfolio* was the wrong term to describe the contents of the page. Therefore I changed it to *Profie* by performing the following actions:
 
-### Changing the references within Hugo
+#### Changing the references within Hugo
 
 In order for the name change to appear correctly and to update the references within my site, I made the following updates within VS Code (though you can use whatever tool you prefer for editing your files):
 
@@ -29,7 +29,7 @@ In order for the name change to appear correctly and to update the references wi
 
 4. Within my **profile/_index.md** file, I changed the title reference to now read *profile*.
 
-### Customize text layout
+#### Customize text layout
 
 After deploying my page and making the changes to now reference *profile*, I realized I did not like the format of my page. I had used the *list* layout originally, but it had all of the text center-justified. To change this to left-justified, I updated the layout to **single**. 
 
@@ -39,7 +39,7 @@ After deploying my page and making the changes to now reference *profile*, I rea
 
 Perhaps in the future I'll work to build out a custom profile, but for now I'm happy with the fact that the *single* profile allowed my text to be left-justified.
 
-### Widening the space for the text body
+#### Widening the space for the text body
 
 One thing I didn't like with the *single* layout was that the text field for the body area did not fill up the page and looked off-center underneath the header. This is not good for someone with OCD like me. With a little bit of research (thanks GitHub Copilot!), I was able to find the correct value to update within the single.html file located in the *layouts/_default* folder referenced above. Based on pre-existing knowledge, I figured this would be a CSS update, but it was helpful to know exactly where to look using a quick prompt.
 
@@ -47,7 +47,7 @@ Within the div class attribute for the body (screenshot below), I updated the va
 
 ![single-width-100](/techblog/images/customize-hugo/single-width-100.png)
 
-## Too many headers
+### Too many headers
 
 The text is now aligned and formatted in a format that I like, however now I had the **Profile** header appearing 3 times. While the *department of redundancy department* has their value in the world, this didn't look good.
 
