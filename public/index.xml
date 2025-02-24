@@ -16,6 +16,13 @@
       <description>&lt;h1 id=&#34;customizing-a-profile-page-within-the-hugo-site&#34;&gt;Customizing a profile page within the hugo site.&lt;/h1&gt;&#xA;&lt;p&gt;It&amp;rsquo;s been a couple of weeks since I&amp;rsquo;ve worked on the Hugo site. However, I came back to it today to work on building out the Portfolio page that I created as a placeholder in the past, to get this site closer to something I&amp;rsquo;d be more comfortable sharing with the world. I started by filling out details within the placeholder markdown file I created before. Here were my goals:&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Hugo - Fix home page indentation</title>
+      <link>http://localhost:1313/techblog/posts/fix-home-page-indent/</link>
+      <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/posts/fix-home-page-indent/</guid>
+      <description>&lt;h2 id=&#34;the-issue&#34;&gt;The issue&lt;/h2&gt;&#xA;&lt;p&gt;As part of the Ananke theme for Hugo, the home page by default displays the most current blog posts. This is what I was looking for, and the main reason I chose this theme for the ss. As with the main page for any section, the home page uses a &lt;strong&gt;_index.md&lt;/strong&gt; page in the root of the &lt;strong&gt;content&lt;/strong&gt; folder, which is empty by default other than the headers. This is because the main purpose for this theme is to be used as a blog.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Hugo - Fixing broken image links</title>
       <link>http://localhost:1313/techblog/posts/hugo-images/</link>
       <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
