@@ -2,6 +2,7 @@
 title: "First Blog Post - Creating this Blog"
 date: 2025-02-01
 draft: false
+categories: ["Hugo"]
 ---
 
 # Why I created this blog

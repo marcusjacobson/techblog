@@ -2,6 +2,7 @@
 title: "Hugo - Fix home page indentation"
 date: 2025-02-23
 draft: false
+categories: ["Hugo"]
 ---
 
 ## The issue

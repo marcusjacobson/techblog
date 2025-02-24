@@ -33,6 +33,10 @@ cover_dimming_class = "bg-black-60"
 recent_posts_number = 3
 customCSS = ["css/custom.css"]
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
 [menu]
   [[menu.main]]
     identifier = "home"

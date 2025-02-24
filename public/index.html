@@ -172,6 +172,37 @@ Projects (coming soon!) Blog Posts, related to projects and otherwise Personal p
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/techblog/posts/hugo-add-taxonomy/" class="color-inherit dim link">
+            Hugo - Add taxonomy to sort blog posts
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          <h2 id="the-need-to-sort-blog-posts">The need to sort blog posts</h2>
+<p>As I have been adding more blog posts, I realized that I needed to start sorting them by category, to make finding relevant articles in the future easier. Fortunately, with a little research, the answer to this was pretty straightforward.</p>
+<h3 id="add-a-taxonomy-section-to-hugotoml">Add a taxonomy section to hugo.toml</h3>
+<p>Within the <strong>hugo.toml</strong> file, I added the following section after <strong>[&ldquo;params&rdquo;]</strong>:</p>
+<pre tabindex="0"><code>[taxonomies]
+  category = &#34;categories&#34;
+  tag = &#34;tags&#34;
+</code></pre><p>This gives me the option to do both categorization and add tags in the future. For now I just added categories, since I don&rsquo;t have a search functionality on my side. If I add search later though, having the option to implement tags will be helpful.</p>
+        </div>
+          <a href="/techblog/posts/hugo-add-taxonomy/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+            </div>
+          
+            <div class="relative w-100 mb4">
+              
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="/techblog/posts/hugo-profile-page/" class="color-inherit dim link">
             Hugo - Creating the Profile page
             </a>
@@ -214,37 +245,18 @@ Projects (coming soon!) Blog Posts, related to projects and otherwise Personal p
 
             </div>
           
-            <div class="relative w-100 mb4">
-              
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/techblog/posts/hugo-images/" class="color-inherit dim link">
-            Hugo - Fixing broken image links
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          <h2 id="my-hugo-images-were-broken">My Hugo images were broken!</h2>
-<p>Quick update for today, with another Hugo tip. As I have worked with markdown before, specifically while managing Wikis in Azure DevOps and GitHub, I simply created a subdirectory within my repository in the same area as the markdown files for my articles, and then pointed to my image files using the typical syntax of <code>![alt text](imagelink)</code>. When building my site within Hugo, it even properly ported these image files into the <strong>public</strong> site files, however no matter what I did, my links were broken.</p>
-        </div>
-          <a href="/techblog/posts/hugo-images/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-            </div>
-          
         </section>
 
         
         <section class="w-100">
           <h1 class="f3">More</h1>
           
+          
+            <h2 class="f5 fw4 mb4 dib mr3">
+              <a href="/techblog/posts/hugo-images/" class="link black dim">
+                Hugo - Fixing broken image links
+              </a>
+            </h2>
           
             <h2 class="f5 fw4 mb4 dib mr3">
               <a href="/techblog/posts/customize-hugo/" class="link black dim">

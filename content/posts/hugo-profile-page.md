@@ -2,6 +2,7 @@
 title: "Hugo - Creating the Profile page"
 date: 2025-02-23
 draft: false
+categories: ["Hugo"]
 ---
 
 # Customizing a profile page within the hugo site.

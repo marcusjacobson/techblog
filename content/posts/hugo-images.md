@@ -2,6 +2,7 @@
 title: "Hugo - Fixing broken image links"
 date: 2025-02-23
 draft: false
+categories: ["Hugo"]
 ---
 
 ## My Hugo images were broken!

@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog Posts on Tech Portfolio - Marcus Jacobson</title>
-    <link>http://localhost:1313/techblog/posts/</link>
-    <description>Recent content in Blog Posts on Tech Portfolio - Marcus Jacobson</description>
+    <title>Hugo on Tech Portfolio - Marcus Jacobson</title>
+    <link>http://localhost:1313/techblog/categories/hugo/</link>
+    <description>Recent content in Hugo on Tech Portfolio - Marcus Jacobson</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/techblog/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hugo - Add taxonomy to sort blog posts</title>
-      <link>http://localhost:1313/techblog/posts/hugo-add-taxonomy/</link>
-      <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/techblog/posts/hugo-add-taxonomy/</guid>
-      <description>&lt;h2 id=&#34;the-need-to-sort-blog-posts&#34;&gt;The need to sort blog posts&lt;/h2&gt;&#xA;&lt;p&gt;As I have been adding more blog posts, I realized that I needed to start sorting them by category, to make finding relevant articles in the future easier. Fortunately, with a little research, the answer to this was pretty straightforward.&lt;/p&gt;&#xA;&lt;h3 id=&#34;add-a-taxonomy-section-to-hugotoml&#34;&gt;Add a taxonomy section to hugo.toml&lt;/h3&gt;&#xA;&lt;p&gt;Within the &lt;strong&gt;hugo.toml&lt;/strong&gt; file, I added the following section after &lt;strong&gt;[&amp;ldquo;params&amp;rdquo;]&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[taxonomies]&#xD;&#xA;  category = &amp;#34;categories&amp;#34;&#xD;&#xA;  tag = &amp;#34;tags&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This gives me the option to do both categorization and add tags in the future. For now I just added categories, since I don&amp;rsquo;t have a search functionality on my side. If I add search later though, having the option to implement tags will be helpful.&lt;/p&gt;</description>
-    </item>
+    <atom:link href="http://localhost:1313/techblog/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo - Creating the Profile page</title>
       <link>http://localhost:1313/techblog/posts/hugo-profile-page/</link>
@@ -49,13 +42,6 @@
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/techblog/posts/deploy-hugo-site/</guid>
       <description>&lt;h1 id=&#34;why-i-created-this-blog&#34;&gt;Why I created this blog&lt;/h1&gt;&#xA;&lt;p&gt;My name is Marcus, and I am an IT professional focused in Azure Cloud Deployments, and working to improve my skills in the Security and AI spaces. This blog is meant to be a space for me to focus on the following subjects:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Discussions on personal projects I am working on&lt;/li&gt;&#xA;&lt;li&gt;Details on deployments with screenshots and code snippets, to help others as they come across the content&lt;/li&gt;&#xA;&lt;li&gt;Posts relating to learning activities I am working on, including certifications.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This blog is posted using the Hugo framework within GitHub pages. I chose this method since it is a free way to host content and it allows me to still have the control around content publishing and site theming. For more details on using Hugo, please visit &lt;a href=&#34;https://gohugo.io/&#34;&gt;https://gohugo.io/&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hello World!</title>
-      <link>http://localhost:1313/techblog/posts/hello-world/</link>
-      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/techblog/posts/hello-world/</guid>
-      <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello World&lt;/h1&gt;&#xA;&lt;p&gt;This is a test Hello World post, using Hugo.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

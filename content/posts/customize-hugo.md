@@ -2,6 +2,7 @@
 title: "Hugo - Customize the Ananke Theme"
 date: 2025-02-02
 draft: false
+categories: ["Hugo"]
 ---
 
 # Continuing the Hugo Journey
