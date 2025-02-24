@@ -65,3 +65,7 @@ I am now happy with the look of the profile page.
 ## View the Profile page
 
 The live profile page is now live at: [Profile](https://marcusjacobson.github.io/techblog/profile/)
+
+## Learnings
+
+While most of this was just clerical updates to different files within my site, I was also able to get more practice with customizing different areas of the Ananke template to make the site look how I wanted.
