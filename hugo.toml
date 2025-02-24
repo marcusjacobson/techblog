@@ -1,6 +1,6 @@
 baseURL = "https://marcusjacobson.github.io/techblog/"
 languageCode = "en-us"
-title = "Tech Blog by Marcus"
+title = "Tech Portfolio - Marcus Jacobson"
 theme = "ananke"
 
 enableRobotsTXT = true
@@ -14,7 +14,7 @@ pagerSize = 3
 [languages.en]
 languageCode = 'en-US'
 weight = 1
-title = "Tech Blog by Marcus"
+title = "Tech Portfolio - Marcus Jacobson"
 
 [sitemap]
 changefreq = "monthly"
@@ -56,7 +56,7 @@ customCSS = ["css/custom.css"]
 top_header_title = "Home"
 main_header_title = "Welcome to My Blog"
 recent_posts_title = "Recent Posts"
-header_title = "Tech Blog by Marcus"
+header_title = "Tech Portfolio - Marcus Jacobson"
 
 [params.ananke.social.share]
 networks = [

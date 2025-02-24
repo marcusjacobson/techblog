@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tech Portfolio - Marcus Jacobson on Tech Blog by Marcus</title>
+    <title>Tech Portfolio - Marcus Jacobson</title>
     <link>http://localhost:1313/techblog/</link>
-    <description>Recent content in Tech Portfolio - Marcus Jacobson on Tech Blog by Marcus</description>
+    <description>Recent content on Tech Portfolio - Marcus Jacobson</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate>
