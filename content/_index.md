@@ -10,10 +10,9 @@ Welcome to my personal portfolio site! This site is currently still under constr
 
 This site will be used to publish:
 
-- Projects (coming soon!)
 - Blog Posts, related to projects and otherwise
+- Projects
 - Personal profile to display contents such as skills and certifications, both currently existing/active and things I am working towards.
-- Online resume (coming soon!)
 
 This site is built using Hugo, and published using GitHub pages. For now, see my blog for details on how I have been building this page. Once I have the layout completed, I will publish it as a project.
 
