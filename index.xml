@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech Portfolio - Marcus Jacobson</title><link>https://marcusjacobson.github.io/techblog/</link><description>Recent content on Tech Portfolio - Marcus Jacobson</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://marcusjacobson.github.io/techblog/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo - Add taxonomy to sort blog posts</title><link>https://marcusjacobson.github.io/techblog/posts/hugo-add-taxonomy/</link><pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate><guid>https://marcusjacobson.github.io/techblog/posts/hugo-add-taxonomy/</guid><description>&lt;h2 id="the-need-to-sort-blog-posts">The need to sort blog posts&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech Portfolio - Marcus Jacobson</title><link>https://marcusjacobson.github.io/techblog/</link><description>Recent content on Tech Portfolio - Marcus Jacobson</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sat, 08 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://marcusjacobson.github.io/techblog/index.xml" rel="self" type="application/rss+xml"/><item><title>GitHub &amp; AzDO - Sync an existing AzureDevOps Repository to GitHub</title><link>https://marcusjacobson.github.io/techblog/projects/azdo-github-sync/</link><pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate><guid>https://marcusjacobson.github.io/techblog/projects/azdo-github-sync/</guid><description>&lt;p>&lt;strong>Version&lt;/strong>: 1.0.0&lt;/p>
+&lt;p>&lt;strong>Author&lt;/strong>: Marcus Jacobson&lt;/p>
+&lt;p>&lt;strong>License&lt;/strong>: &lt;a href="https://opensource.org/licenses/MIT">MIT&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Repository&lt;/strong>: &lt;a href="https://github.com/marcusjacobson/Projects/tree/main/Github-Sync">GitHub&lt;/a>&lt;/p>
+&lt;h2 id="project-goal">Project Goal&lt;/h2>
+&lt;p>Create a one-way sync from Azure DevOps to GitHub, for the purpose of publishing projects created in Azure DevOps to the shareable GitHub repo.&lt;/p>
+&lt;h2 id="project-outcomes">Project Outcomes&lt;/h2>
+&lt;p>Upon running the pipeline in AzureDevops, any new or changed files in the Azure DevOps repo will be updated in the GitHub repository.&lt;/p>
+&lt;p>&lt;strong>Limitations&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Due to the allowable permissions for GitHub personal access tokens, only read &amp;amp; write permissions are allowed, but delete permissions are not available. Therefore any deleted files in the Azure DevOps will not be deleted in GitHub.&lt;/li>
+&lt;li>Any files that are moved within Azure DevOps will be duplicated, one version in each locations. Therefore any deleted or moved files will need to be manually remediated in GitHub.&lt;/li>
+&lt;li>Another remediation option would be to empty the GitHub repository and then run the pipeline again in Azure DevOps. This will make sure that only the most recent files and folder structure is live in GitHub.&lt;/li>
+&lt;/ul>
+&lt;h2 id="features">Features&lt;/h2>
+&lt;p>There are three files that are included as part of this project:&lt;/p></description></item><item><title>Hugo - Add taxonomy to sort blog posts</title><link>https://marcusjacobson.github.io/techblog/posts/hugo-add-taxonomy/</link><pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate><guid>https://marcusjacobson.github.io/techblog/posts/hugo-add-taxonomy/</guid><description>&lt;h2 id="the-need-to-sort-blog-posts">The need to sort blog posts&lt;/h2>
 &lt;p>As I have been adding more blog posts, I realized that I needed to start sorting them by category, to make finding relevant articles in the future easier. Fortunately, with a little research, the answer to this was pretty straightforward.&lt;/p>
 &lt;h3 id="add-a-taxonomy-section-to-hugotoml">Add a taxonomy section to hugo.toml&lt;/h3>
 &lt;p>Within the &lt;strong>hugo.toml&lt;/strong> file, I added the following section after &lt;strong>[&amp;ldquo;params&amp;rdquo;]&lt;/strong>:&lt;/p>
@@ -17,4 +32,15 @@
 &lt;li>Posts relating to learning activities I am working on, including certifications.&lt;/li>
 &lt;/ul>
 &lt;p>This blog is posted using the Hugo framework within GitHub pages. I chose this method since it is a free way to host content and it allows me to still have the control around content publishing and site theming. For more details on using Hugo, please visit &lt;a href="https://gohugo.io/">https://gohugo.io/&lt;/a>.&lt;/p></description></item><item><title>Hello World!</title><link>https://marcusjacobson.github.io/techblog/posts/hello-world/</link><pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate><guid>https://marcusjacobson.github.io/techblog/posts/hello-world/</guid><description>&lt;h1 id="hello-world">Hello World&lt;/h1>
-&lt;p>This is a test Hello World post, using Hugo.&lt;/p></description></item></channel></rss>
+&lt;p>This is a test Hello World post, using Hugo.&lt;/p></description></item><item><title>Project Template</title><link>https://marcusjacobson.github.io/techblog/projects/test-project/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://marcusjacobson.github.io/techblog/projects/test-project/</guid><description>&lt;p>&lt;strong>Version&lt;/strong>: X.X.X&lt;/p>
+&lt;p>&lt;strong>Author&lt;/strong>: Your Name&lt;/p>
+&lt;p>&lt;strong>License&lt;/strong>: &lt;a href="https://opensource.org/licenses/MIT">MIT&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Repository&lt;/strong>: &lt;a href="https://github.com/yourusername/your-repo">GitHub&lt;/a>&lt;/p>
+&lt;h2 id="project-goal">Project Goal&lt;/h2>
+&lt;p>Provide a brief overview of the project&amp;rsquo;s goal. Explain what problem it aims to solve or what functionality it provides.&lt;/p>
+&lt;h2 id="project-outcomes">Project Outcomes&lt;/h2>
+&lt;p>Discuss the outcomes of the project. What are the key achievements? What impact does the project have?&lt;/p>
+&lt;h2 id="features">Features&lt;/h2>
+&lt;p>List the main features of the project. This can include functionality, performance improvements, or any other significant aspects.&lt;/p>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>Provide a brief guide on how to install or set up the project. This can include prerequisites, installation steps, and configuration instructions.&lt;/p></description></item></channel></rss>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Category1 on Tech Portfolio - Marcus Jacobson</title><link>https://marcusjacobson.github.io/techblog/categories/category1/</link><description>Recent content in Category1 on Tech Portfolio - Marcus Jacobson</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://marcusjacobson.github.io/techblog/categories/category1/index.xml" rel="self" type="application/rss+xml"/><item><title>Project Template</title><link>https://marcusjacobson.github.io/techblog/projects/test-project/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://marcusjacobson.github.io/techblog/projects/test-project/</guid><description>&lt;p>&lt;strong>Version&lt;/strong>: X.X.X&lt;/p>
+&lt;p>&lt;strong>Author&lt;/strong>: Your Name&lt;/p>
+&lt;p>&lt;strong>License&lt;/strong>: &lt;a href="https://opensource.org/licenses/MIT">MIT&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Repository&lt;/strong>: &lt;a href="https://github.com/yourusername/your-repo">GitHub&lt;/a>&lt;/p>
+&lt;h2 id="project-goal">Project Goal&lt;/h2>
+&lt;p>Provide a brief overview of the project&amp;rsquo;s goal. Explain what problem it aims to solve or what functionality it provides.&lt;/p>
+&lt;h2 id="project-outcomes">Project Outcomes&lt;/h2>
+&lt;p>Discuss the outcomes of the project. What are the key achievements? What impact does the project have?&lt;/p>
+&lt;h2 id="features">Features&lt;/h2>
+&lt;p>List the main features of the project. This can include functionality, performance improvements, or any other significant aspects.&lt;/p>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>Provide a brief guide on how to install or set up the project. This can include prerequisites, installation steps, and configuration instructions.&lt;/p></description></item></channel></rss>
