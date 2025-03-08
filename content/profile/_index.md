@@ -50,6 +50,7 @@ I have earned the following industry certifications, and have continued to keep 
 
 ### Microsoft Certifications
 
+- Microsoft Certified: Azure Security Engineer Associate (AZ-500)
 - Microsoft Certified: DevOps Engineer Expert (AZ-400)
 - Microsoft Certified: Azure Administrator Associate (AZ-104)
 - Microsoft Certified: Azure Fundamentals (AZ-900)
@@ -73,8 +74,7 @@ I have earned the following industry certifications, and have continued to keep 
 
 The following are certifications I am either currently working towards or will be working towards in the near future:
 
-- **Current study** Microsoft Certified: Azure Security Engineer Associate (AZ-500)
-- Microsoft Certified: Security Operations Analyst Associate (SC-200)
+- **Active study** Microsoft Certified: Microsoft Certified: Security Operations Analyst Associate (SC-200)
 - Microsoft Certified: Azure AI Engineer Associate (AI-102)
 
 ## Experience
