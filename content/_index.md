@@ -10,10 +10,10 @@ Welcome to my personal portfolio site! This site is currently still under constr
 
 This site will be used to publish:
 
-- Blog Posts, related to projects and otherwise
-- Projects
+- Blog Posts - related to projects and otherwise.
+- Personal Projects - sharing as open source, feel free to leverage for personal and non-commercial uses.
 - Personal profile to display contents such as skills and certifications, both currently existing/active and things I am working towards.
 
-This site is built using Hugo, and published using GitHub pages. For now, see my blog for details on how I have been building this page. Once I have the layout completed, I will publish it as a project.
+This site is built using [Hugo](https://gohugo.io/), and published using [GitHub pages](https://pages.github.com/).
 
 See below for my most recent Blog posts, or click the links in the upper-right to navigate to specific sections.
