@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AzDO on Tech Portfolio - Marcus Jacobson</title><link>https://marcusjacobson.github.io/techblog/categories/azdo/</link><description>Recent content in AzDO on Tech Portfolio - Marcus Jacobson</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sat, 08 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://marcusjacobson.github.io/techblog/categories/azdo/index.xml" rel="self" type="application/rss+xml"/><item><title>GitHub &amp; AzDO - Sync an existing AzureDevOps Repository to GitHub</title><link>https://marcusjacobson.github.io/techblog/projects/azdo-github-sync/</link><pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate><guid>https://marcusjacobson.github.io/techblog/projects/azdo-github-sync/</guid><description>&lt;p>&lt;strong>Version&lt;/strong>: 1.0.0&lt;/p>
+&lt;p>&lt;strong>Author&lt;/strong>: Marcus Jacobson&lt;/p>
+&lt;p>&lt;strong>License&lt;/strong>: &lt;a href="https://opensource.org/licenses/MIT">MIT&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Repository&lt;/strong>: &lt;a href="https://github.com/marcusjacobson/Projects/tree/main/Github-Sync">GitHub&lt;/a>&lt;/p>
+&lt;h2 id="project-goal">Project Goal&lt;/h2>
+&lt;p>Create a one-way sync from Azure DevOps to GitHub, for the purpose of publishing projects created in Azure DevOps to the shareable GitHub repo.&lt;/p>
+&lt;h2 id="project-outcomes">Project Outcomes&lt;/h2>
+&lt;p>Upon running the pipeline in AzureDevops, any new or changed files in the Azure DevOps repo will be updated in the GitHub repository.&lt;/p>
+&lt;p>&lt;strong>Limitations&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>Due to the allowable permissions for GitHub personal access tokens, only read &amp;amp; write permissions are allowed, but delete permissions are not available. Therefore any deleted files in the Azure DevOps will not be deleted in GitHub.&lt;/li>
+&lt;li>Any files that are moved within Azure DevOps will be duplicated, one version in each locations. Therefore any deleted or moved files will need to be manually remediated in GitHub.&lt;/li>
+&lt;li>Another remediation option would be to empty the GitHub repository and then run the pipeline again in Azure DevOps. This will make sure that only the most recent files and folder structure is live in GitHub.&lt;/li>
+&lt;/ul>
+&lt;h2 id="features">Features&lt;/h2>
+&lt;p>There are three files that are included as part of this project:&lt;/p></description></item></channel></rss>
