@@ -51,10 +51,16 @@ customCSS = ["css/custom.css"]
     weight = 2
 
   [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+
+  [[menu.main]]
     identifier = "profile"
     name = "Profile"
     url = "/profile/"
-    weight = 3
+    weight = 4
 
 # New parameters for different titles
 top_header_title = "Home"

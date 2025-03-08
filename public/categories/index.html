@@ -48,8 +48,8 @@
 
   <meta itemprop="name" content="Categories">
   <meta itemprop="description" content="The last theme you&#39;ll ever need. Maybe.">
-  <meta itemprop="datePublished" content="2025-02-23T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-02-23T00:00:00+00:00">
+  <meta itemprop="datePublished" content="2025-03-08T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-03-08T00:00:00+00:00">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Categories">
   <meta name="twitter:description" content="The last theme you&#39;ll ever need. Maybe.">
@@ -88,6 +88,12 @@
           </li>
           
           <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/techblog/projects/" title="Projects">
+              Projects
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
             <a class="hover-white no-underline white-90" href="/techblog/profile/" title="Profile">
               Profile
             </a>
@@ -120,6 +126,82 @@
   </article>
   <div class="mw8 center">
     <section class="ph4">
+      
+        <h2 class="f1">
+          <a href="/techblog/categories/azdo/" class="link blue hover-black">
+            Category: AzDO
+          </a>
+        </h2>
+        
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Projects</span>
+    <h1 class="f3 near-black">
+      <a href="/techblog/projects/azdo-github-sync/" class="link black dim">
+        GitHub &amp; AzDO - Sync an existing AzureDevOps Repository to GitHub
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p><strong>Version</strong>:    1.0.0</p>
+<p><strong>Author</strong>:     Marcus Jacobson</p>
+<p><strong>License</strong>:    <a href="https://opensource.org/licenses/MIT">MIT</a></p>
+<p><strong>Repository</strong>: <a href="https://github.com/marcusjacobson/Projects/tree/main/Github-Sync">GitHub</a></p>
+<h2 id="project-goal">Project Goal</h2>
+<p>Create a one-way sync from Azure DevOps to GitHub, for the purpose of publishing projects created in Azure DevOps to the shareable GitHub repo.</p>
+<h2 id="project-outcomes">Project Outcomes</h2>
+<p>Upon running the pipeline in AzureDevops, any new or changed files in the Azure DevOps repo will be updated in the GitHub repository.</p>
+<p><strong>Limitations</strong>:</p>
+<ul>
+<li>Due to the allowable permissions for GitHub personal access tokens, only read &amp; write permissions are allowed, but delete permissions are not available. Therefore any deleted files in the Azure DevOps will not be deleted in GitHub.</li>
+<li>Any files that are moved within Azure DevOps will be duplicated, one version in each locations. Therefore any deleted or moved files will need to be manually remediated in GitHub.</li>
+<li>Another remediation option would be to empty the GitHub repository and then run the pipeline again in Azure DevOps. This will make sure that only the most recent files and folder structure is live in GitHub.</li>
+</ul>
+<h2 id="features">Features</h2>
+<p>There are three files that are included as part of this project:</p>
+    </div>
+    <a href="/techblog/projects/azdo-github-sync/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        
+      
+        <h2 class="f1">
+          <a href="/techblog/categories/github/" class="link blue hover-black">
+            Category: Github
+          </a>
+        </h2>
+        
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Projects</span>
+    <h1 class="f3 near-black">
+      <a href="/techblog/projects/azdo-github-sync/" class="link black dim">
+        GitHub &amp; AzDO - Sync an existing AzureDevOps Repository to GitHub
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p><strong>Version</strong>:    1.0.0</p>
+<p><strong>Author</strong>:     Marcus Jacobson</p>
+<p><strong>License</strong>:    <a href="https://opensource.org/licenses/MIT">MIT</a></p>
+<p><strong>Repository</strong>: <a href="https://github.com/marcusjacobson/Projects/tree/main/Github-Sync">GitHub</a></p>
+<h2 id="project-goal">Project Goal</h2>
+<p>Create a one-way sync from Azure DevOps to GitHub, for the purpose of publishing projects created in Azure DevOps to the shareable GitHub repo.</p>
+<h2 id="project-outcomes">Project Outcomes</h2>
+<p>Upon running the pipeline in AzureDevops, any new or changed files in the Azure DevOps repo will be updated in the GitHub repository.</p>
+<p><strong>Limitations</strong>:</p>
+<ul>
+<li>Due to the allowable permissions for GitHub personal access tokens, only read &amp; write permissions are allowed, but delete permissions are not available. Therefore any deleted files in the Azure DevOps will not be deleted in GitHub.</li>
+<li>Any files that are moved within Azure DevOps will be duplicated, one version in each locations. Therefore any deleted or moved files will need to be manually remediated in GitHub.</li>
+<li>Another remediation option would be to empty the GitHub repository and then run the pipeline again in Azure DevOps. This will make sure that only the most recent files and folder structure is live in GitHub.</li>
+</ul>
+<h2 id="features">Features</h2>
+<p>There are three files that are included as part of this project:</p>
+    </div>
+    <a href="/techblog/projects/azdo-github-sync/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        
       
         <h2 class="f1">
           <a href="/techblog/categories/hugo/" class="link blue hover-black">
@@ -261,6 +343,74 @@
 <p>This is a test Hello World post, using Hugo.</p>
     </div>
     <a href="/techblog/posts/hello-world/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        
+      
+        <h2 class="f1">
+          <a href="/techblog/categories/category1/" class="link blue hover-black">
+            Category: Category1
+          </a>
+        </h2>
+        
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Projects</span>
+    <h1 class="f3 near-black">
+      <a href="/techblog/projects/test-project/" class="link black dim">
+        Project Template
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p><strong>Version</strong>:    X.X.X</p>
+<p><strong>Author</strong>:     Your Name</p>
+<p><strong>License</strong>:    <a href="https://opensource.org/licenses/MIT">MIT</a></p>
+<p><strong>Repository</strong>: <a href="https://github.com/yourusername/your-repo">GitHub</a></p>
+<h2 id="project-goal">Project Goal</h2>
+<p>Provide a brief overview of the project&rsquo;s goal. Explain what problem it aims to solve or what functionality it provides.</p>
+<h2 id="project-outcomes">Project Outcomes</h2>
+<p>Discuss the outcomes of the project. What are the key achievements? What impact does the project have?</p>
+<h2 id="features">Features</h2>
+<p>List the main features of the project. This can include functionality, performance improvements, or any other significant aspects.</p>
+<h2 id="installation">Installation</h2>
+<p>Provide a brief guide on how to install or set up the project. This can include prerequisites, installation steps, and configuration instructions.</p>
+    </div>
+    <a href="/techblog/projects/test-project/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        
+      
+        <h2 class="f1">
+          <a href="/techblog/categories/category2/" class="link blue hover-black">
+            Category: Category2
+          </a>
+        </h2>
+        
+          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Projects</span>
+    <h1 class="f3 near-black">
+      <a href="/techblog/projects/test-project/" class="link black dim">
+        Project Template
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p><strong>Version</strong>:    X.X.X</p>
+<p><strong>Author</strong>:     Your Name</p>
+<p><strong>License</strong>:    <a href="https://opensource.org/licenses/MIT">MIT</a></p>
+<p><strong>Repository</strong>: <a href="https://github.com/yourusername/your-repo">GitHub</a></p>
+<h2 id="project-goal">Project Goal</h2>
+<p>Provide a brief overview of the project&rsquo;s goal. Explain what problem it aims to solve or what functionality it provides.</p>
+<h2 id="project-outcomes">Project Outcomes</h2>
+<p>Discuss the outcomes of the project. What are the key achievements? What impact does the project have?</p>
+<h2 id="features">Features</h2>
+<p>List the main features of the project. This can include functionality, performance improvements, or any other significant aspects.</p>
+<h2 id="installation">Installation</h2>
+<p>Provide a brief guide on how to install or set up the project. This can include prerequisites, installation steps, and configuration instructions.</p>
+    </div>
+    <a href="/techblog/projects/test-project/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
 </div>
 
