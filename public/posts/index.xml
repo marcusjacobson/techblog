@@ -6,8 +6,15 @@
     <description>Recent content in Blog Posts on Tech Portfolio - Marcus Jacobson</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/techblog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project Release - Sync an Azure DevOps repo to GitHub</title>
+      <link>http://localhost:1313/techblog/posts/project-sync-azdo-to-gh/</link>
+      <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/posts/project-sync-azdo-to-gh/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Project Page&lt;/strong&gt;: &lt;a href=&#34;http://localhost:1313/techblog/techblog/projects/azdo-github-sync/&#34;&gt;GitHub-Sync&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;project-introduction&#34;&gt;Project Introduction&lt;/h2&gt;&#xA;&lt;p&gt;I work in Azure DevOps daily to deploy resources using Azure using pipelines. Therefore, I have a high familiarity with using Azure DevOps for deployments and build both personal and professional projects in the environment. However, I also want to be able to share my personal projects more widely using GitHub, since it is a more recognized tool for this purpose. I also want to consolidate all of my projects in one place (GitHub), regardless of whether they were built using Azure DevOps.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hugo - Add taxonomy to sort blog posts</title>
       <link>http://localhost:1313/techblog/posts/hugo-add-taxonomy/</link>
