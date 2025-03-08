@@ -13,4 +13,6 @@
 &lt;li>Another remediation option would be to empty the GitHub repository and then run the pipeline again in Azure DevOps. This will make sure that only the most recent files and folder structure is live in GitHub.&lt;/li>
 &lt;/ul>
 &lt;h2 id="features">Features&lt;/h2>
-&lt;p>There are three files that are included as part of this project:&lt;/p></description></item></channel></rss>
+&lt;p>There are three files that are included as part of this project:&lt;/p></description></item><item><title>Project Release - Sync an Azure DevOps repo to GitHub</title><link>https://marcusjacobson.github.io/techblog/posts/project-sync-azdo-to-gh/</link><pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate><guid>https://marcusjacobson.github.io/techblog/posts/project-sync-azdo-to-gh/</guid><description>&lt;p>&lt;strong>Project Page&lt;/strong>: &lt;a href="https://marcusjacobson.github.io/techblog/techblog/projects/azdo-github-sync/">GitHub-Sync&lt;/a>&lt;/p>
+&lt;h2 id="project-introduction">Project Introduction&lt;/h2>
+&lt;p>I work in Azure DevOps daily to deploy resources using Azure using pipelines. Therefore, I have a high familiarity with using Azure DevOps for deployments and build both personal and professional projects in the environment. However, I also want to be able to share my personal projects more widely using GitHub, since it is a more recognized tool for this purpose. I also want to consolidate all of my projects in one place (GitHub), regardless of whether they were built using Azure DevOps.&lt;/p></description></item></channel></rss>
