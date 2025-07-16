@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Tech Portfolio - Marcus Jacobson</title><link>https://marcusjacobson.github.io/techblog/projects/</link><description>Recent content in Projects on Tech Portfolio - Marcus Jacobson</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sat, 08 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://marcusjacobson.github.io/techblog/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>GitHub &amp; AzDO - Sync an existing AzureDevOps Repository to GitHub</title><link>https://marcusjacobson.github.io/techblog/projects/azdo-github-sync/</link><pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate><guid>https://marcusjacobson.github.io/techblog/projects/azdo-github-sync/</guid><description>&lt;p>&lt;strong>Version&lt;/strong>: 1.0.0&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Tech Portfolio - Marcus Jacobson</title><link>https://marcusjacobson.github.io/techblog/projects/</link><description>Recent content in Projects on Tech Portfolio - Marcus Jacobson</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Wed, 16 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://marcusjacobson.github.io/techblog/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Azure AI Security Skills Challenge</title><link>https://marcusjacobson.github.io/techblog/projects/ai-security-skilling-challenge/</link><pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate><guid>https://marcusjacobson.github.io/techblog/projects/ai-security-skilling-challenge/</guid><description>&lt;p>&lt;strong>Version&lt;/strong>: 0.0.1&lt;/p>
+&lt;p>&lt;strong>Author&lt;/strong>: Marcus Jacobson&lt;/p>
+&lt;p>&lt;strong>License&lt;/strong>: &lt;a href="https://opensource.org/licenses/MIT">MIT&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Repository&lt;/strong>: &lt;a href="https://github.com/marcusjacobson/Projects/blob/main/Microsoft/Azure%20Ai%20Security%20Skills%20Challenge/README.md">GitHub&lt;/a>&lt;/p>
+&lt;h2 id="project-status">Project Status&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Week 0&lt;/strong>: In Development&lt;/li>
+&lt;li>&lt;strong>Week 1&lt;/strong>: &lt;em>Not Started&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Week 2&lt;/strong>: &lt;em>Not Started&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Week 3&lt;/strong>: &lt;em>Not Started&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Week 4&lt;/strong>: &lt;em>Not Started&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Week 5&lt;/strong>: &lt;em>Not Started&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Week 6&lt;/strong>: &lt;em>Not Started&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Week 7&lt;/strong>: &lt;em>Not Started&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Week 8&lt;/strong>: &lt;em>Not Started&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Week 9&lt;/strong>: &lt;em>Not Started&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Week 10&lt;/strong>: &lt;em>Not Started&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Week 11&lt;/strong>: &lt;em>Not Started&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Week 12&lt;/strong>: &lt;em>Not Started&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;h2 id="project-goal">Project Goal&lt;/h2>
+&lt;p>This article serves as an introduction to a comprehensive 12-week AI skilling roadmap focused on developing expertise in AI-infused security solutions using Microsoft technologies. This project combines hands-on learning with practical implementation across Microsoft Security Copilot, Defender XDR, Purview, Fabric, and Azure AI services while building a curated prompt library for security and governance scenarios.&lt;/p></description></item><item><title>GitHub &amp; AzDO - Sync an existing AzureDevOps Repository to GitHub</title><link>https://marcusjacobson.github.io/techblog/projects/azdo-github-sync/</link><pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate><guid>https://marcusjacobson.github.io/techblog/projects/azdo-github-sync/</guid><description>&lt;p>&lt;strong>Version&lt;/strong>: 1.0.0&lt;/p>
 &lt;p>&lt;strong>Author&lt;/strong>: Marcus Jacobson&lt;/p>
 &lt;p>&lt;strong>License&lt;/strong>: &lt;a href="https://opensource.org/licenses/MIT">MIT&lt;/a>&lt;/p>
 &lt;p>&lt;strong>Repository&lt;/strong>: &lt;a href="https://github.com/marcusjacobson/Projects/tree/main/Github-Sync">GitHub&lt;/a>&lt;/p>
