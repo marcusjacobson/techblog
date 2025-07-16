@@ -4,8 +4,9 @@ featured_image: '/images/keyboard.jpg'
 header_height: '300px'
 ---
 
-Use the links below to navigate to projects on specific subjects:
+Use the links below to navigate to specific projects or subject tags:
 
-|  |  |  |  |  |  |  |  |  |
-|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
-| [GitHub Deployments](/categories/GitHub) |  |  |  |  | [Azure DevOps Deployments](/categories/AzDO) |  |  |  |  | [*Future Subject*](/) |  |  |  |  | [*Future Subject*](/) |  |  |  |  | [*Future Subject*](/) |
+|  |  |  |  |  |  |  |  |  |  |
+|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| **PROJECTS**: | [*Azure AI Security Challenge*](/categories/Azure-AI-Security-Challenge) |  |  |  |  | [**](/) |  |  |  |  | [**](/) |  |  |  |  | [**](/) |  |  |  |  | [**](/) |
+| **SUBJECTS**: | [*GitHub*](/categories/GitHub) |  |  |  |  | [**](/) |  |  |  |  | [**](/) |  |  |  |  | [**](/) |  |  |  |  | [**](/) |

@@ -6,8 +6,15 @@
     <description>Recent content in Categories on Tech Portfolio - Marcus Jacobson</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 08 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/techblog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Security Challenge</title>
+      <link>http://localhost:1313/techblog/categories/ai-security-challenge/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/categories/ai-security-challenge/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AzDO</title>
       <link>http://localhost:1313/techblog/categories/azdo/</link>
@@ -20,6 +27,13 @@
       <link>http://localhost:1313/techblog/categories/github/</link>
       <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/techblog/categories/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/techblog/categories/projects/</link>
+      <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/categories/projects/</guid>
       <description></description>
     </item>
     <item>
