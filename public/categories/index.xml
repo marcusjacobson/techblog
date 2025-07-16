@@ -9,10 +9,17 @@
     <lastBuildDate>Wed, 16 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/techblog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI Security Challenge</title>
-      <link>http://localhost:1313/techblog/categories/ai-security-challenge/</link>
+      <title>Azure-AI-Security-Challenge</title>
+      <link>http://localhost:1313/techblog/categories/azure-ai-security-challenge/</link>
       <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/techblog/categories/ai-security-challenge/</guid>
+      <guid>http://localhost:1313/techblog/categories/azure-ai-security-challenge/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/techblog/categories/projects/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/categories/projects/</guid>
       <description></description>
     </item>
     <item>
@@ -27,13 +34,6 @@
       <link>http://localhost:1313/techblog/categories/github/</link>
       <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/techblog/categories/github/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Projects</title>
-      <link>http://localhost:1313/techblog/categories/projects/</link>
-      <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/techblog/categories/projects/</guid>
       <description></description>
     </item>
     <item>

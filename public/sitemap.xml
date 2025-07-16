@@ -2,7 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/techblog/categories/azure-ai-security-challenge/</loc>
+    <loc>http://localhost:1313/techblog/posts/ai-skilling-week-0-project-setup/</loc>
+    <lastmod>2025-07-16T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/techblog/tags/automation/</loc>
     <lastmod>2025-07-16T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -12,12 +17,52 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/techblog/tags/azure-devops/</loc>
+    <lastmod>2025-07-16T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/techblog/categories/azure-ai-security-challenge/</loc>
+    <lastmod>2025-07-16T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/techblog/posts/</loc>
+    <lastmod>2025-07-16T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/techblog/categories/</loc>
     <lastmod>2025-07-16T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/techblog/tags/documentation/</loc>
+    <lastmod>2025-07-16T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/techblog/tags/github/</loc>
+    <lastmod>2025-07-16T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/techblog/tags/hugo/</loc>
+    <lastmod>2025-07-16T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/techblog/categories/projects/</loc>
+    <lastmod>2025-07-16T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/techblog/projects/</loc>
+    <lastmod>2025-07-16T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/techblog/tags/</loc>
     <lastmod>2025-07-16T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -28,11 +73,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/techblog/categories/azdo/</loc>
-    <lastmod>2025-03-08T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/techblog/posts/</loc>
     <lastmod>2025-03-08T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -48,11 +88,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/techblog/posts/project-sync-azdo-to-gh/</loc>
-    <lastmod>2025-03-08T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/techblog/categories/projects/</loc>
     <lastmod>2025-03-08T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -117,15 +152,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/techblog/categories/ai-security-challenge/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/techblog/profile/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/techblog/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
