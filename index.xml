@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech Portfolio - Marcus Jacobson</title><link>https://marcusjacobson.github.io/techblog/</link><description>Recent content on Tech Portfolio - Marcus Jacobson</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Wed, 16 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://marcusjacobson.github.io/techblog/index.xml" rel="self" type="application/rss+xml"/><item><title>Azure AI Security Skills Challenge</title><link>https://marcusjacobson.github.io/techblog/projects/ai-security-skilling-challenge/</link><pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate><guid>https://marcusjacobson.github.io/techblog/projects/ai-security-skilling-challenge/</guid><description>&lt;p>&lt;strong>Version&lt;/strong>: 0.0.1&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech Portfolio - Marcus Jacobson</title><link>https://marcusjacobson.github.io/techblog/</link><description>Recent content on Tech Portfolio - Marcus Jacobson</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Wed, 16 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://marcusjacobson.github.io/techblog/index.xml" rel="self" type="application/rss+xml"/><item><title>AI Security Skills Challenge - Week 0: Project Setup &amp; Administration</title><link>https://marcusjacobson.github.io/techblog/posts/ai-skilling-week-0-project-setup/</link><pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate><guid>https://marcusjacobson.github.io/techblog/posts/ai-skilling-week-0-project-setup/</guid><description>&lt;p>&lt;a href="https://marcusjacobson.github.io/techblog/techblog/projects/ai-security-skilling-challenge/">Project page&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/marcusjacobson/Projects/blob/main/Microsoft/Azure%20Ai%20Security%20Skills%20Challenge/00%20-%20Project%20Setup%20%26%20Admin/README.md">GitHub - Week 0&lt;/a>&lt;/p>
+&lt;h2 id="week-0-overview">Week 0 Overview&lt;/h2>
+&lt;p>This week focuses on establishing the foundational infrastructure and workflows for the 12-week AI Security Skills Challenge. The goal is to create a robust project management and documentation ecosystem that will support the entire learning journey.&lt;/p>
+&lt;h2 id="planned-activities">Planned Activities&lt;/h2>
+&lt;h3 id="project-management-setup">Project Management Setup&lt;/h3>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Set up Azure DevOps project board&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Define sprint structure for 12-week timeline&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Create work items and backlog for each week&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Configure project tracking and reporting&lt;/li>
+&lt;/ul>
+&lt;h3 id="documentation-infrastructure">Documentation Infrastructure&lt;/h3>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Initialize GitHub repository structure&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Set up Hugo-based GitHub Pages site&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Create folder structure for prompt library&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Define prompt tagging convention and markdown templates&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Create project scaffolding in portfolio site&lt;/li>
+&lt;/ul>
+&lt;h3 id="prompt-library-foundation">Prompt Library Foundation&lt;/h3>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Organize prompt library by domain (Security, Governance, AI Agents)&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Create markdown template for prompt entries&lt;/li>
+&lt;li>&lt;del>[ ] Set up Microsoft 365 Copilot Prompt Gallery integration&lt;/del>&lt;/li>
+&lt;li>&lt;del>[ ] Develop PowerShell automation for weekly prompt library backup&lt;/del>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Note&lt;/strong>: The steps relating to the M365 prompt library are being omitted from the project since I was only able to save prompts to my personal list, with no good way available yet to save a prompt library specific for the project. Therefore GitHub will be the central source of truth for prompts.&lt;/p></description></item><item><title>Azure AI Security Skills Challenge</title><link>https://marcusjacobson.github.io/techblog/projects/ai-security-skilling-challenge/</link><pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate><guid>https://marcusjacobson.github.io/techblog/projects/ai-security-skilling-challenge/</guid><description>&lt;p>&lt;strong>Version&lt;/strong>: 0.0.1&lt;/p>
 &lt;p>&lt;strong>Author&lt;/strong>: Marcus Jacobson&lt;/p>
 &lt;p>&lt;strong>License&lt;/strong>: &lt;a href="https://opensource.org/licenses/MIT">MIT&lt;/a>&lt;/p>
 &lt;p>&lt;strong>Repository&lt;/strong>: &lt;a href="https://github.com/marcusjacobson/Projects/blob/main/Microsoft/Azure%20Ai%20Security%20Skills%20Challenge/README.md">GitHub&lt;/a>&lt;/p>
