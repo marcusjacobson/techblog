@@ -15,7 +15,7 @@ categories: ["Azure-AI-Security-Challenge"]
 
 ## Project Status
 
-- **Week 0**: In Development
+- **Week 0**: COMPLETE
 - **Week 1**: *Not Started*
 - **Week 2**: *Not Started*
 - **Week 3**: *Not Started*
@@ -49,7 +49,7 @@ As the project resources are published, the references will be linked below.
 
 ### Weekly Learning Modules
 
-- **Week 0**: Project setup with Azure DevOps, GitHub, and Hugo site structure
+- **Week 0**: [Project setup with Azure DevOps, GitHub, and Hugo site structure](/posts/ai-skilling-week-0-project-setup/index.html)
 - **Week 1**: AI-infused security foundations with Microsoft Security Copilot and Defender for Cloud
 - **Week 2**: Defender XDR integration with Copilot for Security
 - **Week 3**: Microsoft Purview for AI-driven data governance
