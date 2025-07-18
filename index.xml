@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech Portfolio - Marcus Jacobson</title><link>https://marcusjacobson.github.io/techblog/</link><description>Recent content on Tech Portfolio - Marcus Jacobson</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Wed, 16 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://marcusjacobson.github.io/techblog/index.xml" rel="self" type="application/rss+xml"/><item><title>AI Security Skills Challenge - Week 0: Project Setup &amp; Administration</title><link>https://marcusjacobson.github.io/techblog/posts/ai-skilling-week-0-project-setup/</link><pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate><guid>https://marcusjacobson.github.io/techblog/posts/ai-skilling-week-0-project-setup/</guid><description>&lt;p>&lt;a href="https://marcusjacobson.github.io/techblog/techblog/projects/ai-security-skilling-challenge/">Project page&lt;/a>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech Portfolio - Marcus Jacobson</title><link>https://marcusjacobson.github.io/techblog/</link><description>Recent content on Tech Portfolio - Marcus Jacobson</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Thu, 17 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://marcusjacobson.github.io/techblog/index.xml" rel="self" type="application/rss+xml"/><item><title>Microsoft Sentinel-as-Code</title><link>https://marcusjacobson.github.io/techblog/projects/sentinel-as-code/</link><pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate><guid>https://marcusjacobson.github.io/techblog/projects/sentinel-as-code/</guid><description>&lt;p>&lt;strong>Version&lt;/strong>: 1.0.0&lt;/p>
+&lt;p>&lt;strong>Author&lt;/strong>: Marcus Jacobson&lt;/p>
+&lt;p>&lt;strong>License&lt;/strong>: &lt;a href="https://opensource.org/licenses/MIT">MIT&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Repository&lt;/strong>: &lt;a href="https://github.com/marcusjacobson/Projects/blob/main/Microsoft/Sentinel/Sentinel-as-Code/README.md">GitHub&lt;/a>&lt;/p>
+&lt;h2 id="project-status">Project Status&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Foundation Infrastructure&lt;/strong>: COMPLETE&lt;/li>
+&lt;li>&lt;strong>Analytics Rules (NRT)&lt;/strong>: COMPLETE&lt;/li>
+&lt;li>&lt;strong>Analytics Rules (Scheduled)&lt;/strong>: COMPLETE&lt;/li>
+&lt;li>&lt;strong>Watchlist Automation&lt;/strong>: COMPLETE&lt;/li>
+&lt;li>&lt;strong>Hunting Queries&lt;/strong>: &lt;em>Planned&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Automation Rules&lt;/strong>: &lt;em>Planned&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Workbooks&lt;/strong>: &lt;em>Planned&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Data Connectors&lt;/strong>: &lt;em>Available via Content Hub&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;h2 id="project-goal">Project Goal&lt;/h2>
+&lt;p>This project provides a comprehensive automation framework for deploying and managing Microsoft Sentinel environments using Azure DevOps Pipelines. The framework enables organizations to implement security operations at scale with consistency, repeatability, and governance through Infrastructure as Code (IaC) principles.&lt;/p></description></item><item><title>AI Security Skills Challenge - Week 0: Project Setup &amp; Administration</title><link>https://marcusjacobson.github.io/techblog/posts/ai-skilling-week-0-project-setup/</link><pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate><guid>https://marcusjacobson.github.io/techblog/posts/ai-skilling-week-0-project-setup/</guid><description>&lt;p>&lt;a href="https://marcusjacobson.github.io/techblog/techblog/projects/ai-security-skilling-challenge/">Project page&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://github.com/marcusjacobson/Projects/blob/main/Microsoft/Azure%20Ai%20Security%20Skills%20Challenge/00%20-%20Project%20Setup%20%26%20Admin/README.md">GitHub - Week 0&lt;/a>&lt;/p>
 &lt;h2 id="week-0-overview">Week 0 Overview&lt;/h2>
 &lt;p>This week focuses on establishing the foundational infrastructure and workflows for the 12-week AI Security Skills Challenge. The goal is to create a robust project management and documentation ecosystem that will support the entire learning journey.&lt;/p>

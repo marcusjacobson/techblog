@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>YAML on Tech Portfolio - Marcus Jacobson</title><link>https://marcusjacobson.github.io/techblog/categories/yaml/</link><description>Recent content in YAML on Tech Portfolio - Marcus Jacobson</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Thu, 17 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://marcusjacobson.github.io/techblog/categories/yaml/index.xml" rel="self" type="application/rss+xml"/><item><title>Microsoft Sentinel-as-Code</title><link>https://marcusjacobson.github.io/techblog/projects/sentinel-as-code/</link><pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate><guid>https://marcusjacobson.github.io/techblog/projects/sentinel-as-code/</guid><description>&lt;p>&lt;strong>Version&lt;/strong>: 1.0.0&lt;/p>
+&lt;p>&lt;strong>Author&lt;/strong>: Marcus Jacobson&lt;/p>
+&lt;p>&lt;strong>License&lt;/strong>: &lt;a href="https://opensource.org/licenses/MIT">MIT&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Repository&lt;/strong>: &lt;a href="https://github.com/marcusjacobson/Projects/blob/main/Microsoft/Sentinel/Sentinel-as-Code/README.md">GitHub&lt;/a>&lt;/p>
+&lt;h2 id="project-status">Project Status&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Foundation Infrastructure&lt;/strong>: COMPLETE&lt;/li>
+&lt;li>&lt;strong>Analytics Rules (NRT)&lt;/strong>: COMPLETE&lt;/li>
+&lt;li>&lt;strong>Analytics Rules (Scheduled)&lt;/strong>: COMPLETE&lt;/li>
+&lt;li>&lt;strong>Watchlist Automation&lt;/strong>: COMPLETE&lt;/li>
+&lt;li>&lt;strong>Hunting Queries&lt;/strong>: &lt;em>Planned&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Automation Rules&lt;/strong>: &lt;em>Planned&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Workbooks&lt;/strong>: &lt;em>Planned&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Data Connectors&lt;/strong>: &lt;em>Available via Content Hub&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;h2 id="project-goal">Project Goal&lt;/h2>
+&lt;p>This project provides a comprehensive automation framework for deploying and managing Microsoft Sentinel environments using Azure DevOps Pipelines. The framework enables organizations to implement security operations at scale with consistency, repeatability, and governance through Infrastructure as Code (IaC) principles.&lt;/p></description></item></channel></rss>
