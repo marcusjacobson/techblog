@@ -2,7 +2,8 @@
 title: "Azure AI Security Skills Challenge"
 date: 2025-07-16
 draft: false
-categories: ["Azure-AI-Security-Challenge"]
+categories: ["Azure-AI-Security-Challenge", "Ai", "Security", "XDR", "Purview", "Priva", "Fabric"]
+tags: ["Copilot", "Copilot Studio", "Azure Ai Foundry"]
 ---
 
 **Version**:    0.0.1
@@ -70,6 +71,14 @@ As the project resources are published, the references will be linked below.
 - Reference architectures for secure AI deployments
 - Customer solutioning playbooks with reusable prompts
 - Automated backup workflow for prompt library management
+
+## Related Projects
+
+This skills challenge has inspired and informed several practical automation frameworks:
+
+- **[AI Security Automation Framework](../ai-security-automation-framework/)**: A comprehensive Infrastructure as Code (IaC) solution for deploying AI-infused security environments using Azure DevOps Pipelines, based on learnings from this challenge
+- **[AI Security Prompt Library](https://github.com/marcusjacobson/Projects/tree/main/Microsoft/AI-Security-Prompt-Library)**: Curated prompts for security operations developed during the challenge
+- **[Secure AI Deployment Guide](https://github.com/marcusjacobson/Projects/tree/main/Microsoft/Secure-AI-Deployment)**: Best practices documentation compiled from weekly learnings
 
 ## Usage
 

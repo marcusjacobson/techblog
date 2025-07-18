@@ -51,6 +51,55 @@
       <description></description>
     </item>
     <item>
+      <title>Automation</title>
+      <link>http://localhost:1313/techblog/categories/automation/</link>
+      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/categories/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LAW</title>
+      <link>http://localhost:1313/techblog/categories/law/</link>
+      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/categories/law/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PowerShell</title>
+      <link>http://localhost:1313/techblog/categories/powershell/</link>
+      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/categories/powershell/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>http://localhost:1313/techblog/categories/security/</link>
+      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/categories/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sentinel</title>
+      <link>http://localhost:1313/techblog/categories/sentinel/</link>
+      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/categories/sentinel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sentinel-as-Code</title>
+      <link>http://localhost:1313/techblog/categories/sentinel-as-code/</link>
+      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/categories/sentinel-as-code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>YAML</title>
+      <link>http://localhost:1313/techblog/categories/yaml/</link>
+      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/categories/yaml/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Category1</title>
       <link>http://localhost:1313/techblog/categories/category1/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
