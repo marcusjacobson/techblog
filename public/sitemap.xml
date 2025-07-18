@@ -27,6 +27,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/techblog/posts/</loc>
+    <lastmod>2025-07-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/techblog/categories/</loc>
     <lastmod>2025-07-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -38,6 +43,11 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/techblog/categories/law/</loc>
+    <lastmod>2025-07-17T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/techblog/posts/sentinel-as-code-framework-overview/</loc>
     <lastmod>2025-07-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -128,11 +138,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/techblog/categories/azure-ai-security-challenge/</loc>
-    <lastmod>2025-07-16T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/techblog/posts/</loc>
     <lastmod>2025-07-16T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -259,6 +264,14 @@
   </url><url>
     <loc>http://localhost:1313/techblog/projects/test-project/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/techblog/categories/infrastructure/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/techblog/tags/infrastructure-as-code/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
