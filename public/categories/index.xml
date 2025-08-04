@@ -6,27 +6,111 @@
     <description>Recent content in Categories on Tech Portfolio - Marcus Jacobson</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 16 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/techblog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ai</title>
+      <link>http://localhost:1313/techblog/categories/ai/</link>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/categories/ai/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Azure-AI-Security-Challenge</title>
       <link>http://localhost:1313/techblog/categories/azure-ai-security-challenge/</link>
-      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/techblog/categories/azure-ai-security-challenge/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fabric</title>
+      <link>http://localhost:1313/techblog/categories/fabric/</link>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/categories/fabric/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Priva</title>
+      <link>http://localhost:1313/techblog/categories/priva/</link>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/categories/priva/</guid>
       <description></description>
     </item>
     <item>
       <title>Projects</title>
       <link>http://localhost:1313/techblog/categories/projects/</link>
-      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/techblog/categories/projects/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Purview</title>
+      <link>http://localhost:1313/techblog/categories/purview/</link>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/categories/purview/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>http://localhost:1313/techblog/categories/security/</link>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/categories/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>XDR</title>
+      <link>http://localhost:1313/techblog/categories/xdr/</link>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/categories/xdr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automation</title>
+      <link>http://localhost:1313/techblog/categories/automation/</link>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/categories/automation/</guid>
       <description></description>
     </item>
     <item>
       <title>AzDO</title>
       <link>http://localhost:1313/techblog/categories/azdo/</link>
-      <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/techblog/categories/azdo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LAW</title>
+      <link>http://localhost:1313/techblog/categories/law/</link>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/categories/law/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PowerShell</title>
+      <link>http://localhost:1313/techblog/categories/powershell/</link>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/categories/powershell/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sentinel</title>
+      <link>http://localhost:1313/techblog/categories/sentinel/</link>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/categories/sentinel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sentinel-as-Code</title>
+      <link>http://localhost:1313/techblog/categories/sentinel-as-code/</link>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/categories/sentinel-as-code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>YAML</title>
+      <link>http://localhost:1313/techblog/categories/yaml/</link>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/categories/yaml/</guid>
       <description></description>
     </item>
     <item>
@@ -48,55 +132,6 @@
       <link>http://localhost:1313/techblog/categories/test/</link>
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/techblog/categories/test/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Automation</title>
-      <link>http://localhost:1313/techblog/categories/automation/</link>
-      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/techblog/categories/automation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>LAW</title>
-      <link>http://localhost:1313/techblog/categories/law/</link>
-      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/techblog/categories/law/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>PowerShell</title>
-      <link>http://localhost:1313/techblog/categories/powershell/</link>
-      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/techblog/categories/powershell/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Security</title>
-      <link>http://localhost:1313/techblog/categories/security/</link>
-      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/techblog/categories/security/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sentinel</title>
-      <link>http://localhost:1313/techblog/categories/sentinel/</link>
-      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/techblog/categories/sentinel/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sentinel-as-Code</title>
-      <link>http://localhost:1313/techblog/categories/sentinel-as-code/</link>
-      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/techblog/categories/sentinel-as-code/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>YAML</title>
-      <link>http://localhost:1313/techblog/categories/yaml/</link>
-      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/techblog/categories/yaml/</guid>
       <description></description>
     </item>
     <item>

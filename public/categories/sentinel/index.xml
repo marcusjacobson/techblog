@@ -9,6 +9,13 @@
     <lastBuildDate>Thu, 17 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/techblog/categories/sentinel/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Microsoft Sentinel Infrastructure as Code - Automation Framework Overview</title>
+      <link>http://localhost:1313/techblog/posts/sentinel-as-code-framework-overview/</link>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techblog/posts/sentinel-as-code-framework-overview/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/techblog/techblog/projects/sentinel-as-code/&#34;&gt;Project page&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/marcusjacobson/Projects/tree/main/Microsoft/Sentinel/Sentinel-as-Code&#34;&gt;GitHub - Sentinel-as-Code&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;If you&amp;rsquo;ve ever found yourself manually clicking through the Azure portal to deploy resources, what starts as a simple &amp;ldquo;quick setup&amp;rdquo; quickly becomes hours of configuration, validation, and hoping you didn&amp;rsquo;t miss a critical setting. That&amp;rsquo;s exactly the problem I set out to solve with this Infrastructure as Code automation framework.&lt;/p&gt;&#xA;&lt;p&gt;This project represents my journey to build a comprehensive solution for deploying and managing Microsoft Sentinel environments using Azure DevOps Pipelines. The goal was simple: make security operations scalable, repeatable and easy to update.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Microsoft Sentinel-as-Code</title>
       <link>http://localhost:1313/techblog/projects/sentinel-as-code/</link>
       <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
